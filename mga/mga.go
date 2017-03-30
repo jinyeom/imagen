@@ -1,8 +1,11 @@
 package mga
 
 import (
+	"encoding/json"
 	"fmt"
+	"io"
 	"math/rand"
+	"os"
 )
 
 // MGAConfig is a container for all configurations of microbial Genetic
@@ -16,6 +19,25 @@ type MGAConfig struct {
 	MutAddNodeRate float64 // mutation rate for adding an node
 	MutAddEdgeRate float64 // mutation rate for adding an edge
 	CrossoverRate  float64 // crossover rate
+}
+
+func NewMGAConfig(filename string) (*MGAConfig, error) {
+	// import configuration
+	f, err := os.Open(filename)
+	if err != nil {
+		return nil, err
+	}
+	defer f.Close()
+	dec := json.NewDecoder(f)
+
+	var config MGAConfig
+	if err := dec.Decode(&config); err != nil {
+		if err != io.EOF {
+			return nil, err
+		}
+	}
+
+	return &config, nil
 }
 
 // MGA contains an environment of the microbial Genetic Algorithm (mGA).
@@ -48,7 +70,6 @@ func NewMGA(config *MGAConfig, cfn CompFn, efn EvalFn) (*MGA, error) {
 // Run performs microbial Genetic Algorithm (mGA).
 func (m *MGA) Run(verbose, exportLog bool) float64 {
 	bestScore := 0.0
-
 	if m.Comparison(bestScore, 9999.0) {
 		bestScore = 9999.0
 	}

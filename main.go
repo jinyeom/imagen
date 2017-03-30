@@ -1,32 +1,30 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
-	. "github.com/gonum/matrix/mat64"
-	. "github.com/jinyeom/imagen/dppn"
-	. "github.com/jinyeom/imagen/mga"
+	"github.com/gonum/matrix/mat64"
+	"github.com/jinyeom/imagen/dppn"
+	"github.com/jinyeom/imagen/mga"
 	"image"
 	"image/color"
 	"image/png"
-	"io"
 	"math"
 	"math/rand"
 	"os"
 )
 
 func help() {
-	fmt.Println("EAN (Evolutionary Adversarial Nets)")
+	fmt.Println("Imagen (Image Generation via DPPN)")
 	fmt.Println("Copyright (c) 2017 by Jin Yeom")
 	fmt.Println("User Manual:")
-	fmt.Println("\tean [config].json")
+	fmt.Println("\timagen [config].json [filename].png")
 }
 
-func draw(g *Genome) {
+func draw(g *mga.Genome) {
 	width := 50
 	height := 41
 
-	n, _ := NewDPPN(g, 1)
+	n, _ := dppn.NewDPPN(g, 1)
 	imge := image.NewGray(image.Rect(0, 0, width, height))
 
 	for y := 0; y < height; y++ {
@@ -36,7 +34,7 @@ func draw(g *Genome) {
 			d := math.Sqrt((fx-float64(width)/2.0)*(fx-float64(width)/2.0) +
 				(fy-float64(height)/2.0)*(fy-float64(height)/2.0))
 			inputs := []float64{fx * 0.2, fy * 0.2, d * 0.2, 1.0}
-			inputVec := NewDense(1, 4, inputs)
+			inputVec := mat64.NewDense(1, 4, inputs)
 
 			outputVec, _ := n.FeedForward(inputVec)
 			outputs := outputVec.RawMatrix().Data
@@ -55,9 +53,11 @@ func draw(g *Genome) {
 	png.Encode(f1, imge)
 }
 
-func ImageFit(numBatch, numEpochs int, lr float64) EvalFn {
+// genImage returns an evaluation function for fitting the argument image's
+// pixel value distribution.
+func genImage(filename string, numBatch, numEpochs int, lr float64) mga.EvalFn {
 	// target image
-	f, err := os.Open("butterfly.png")
+	f, err := os.Open(filename)
 	if err != nil {
 		fmt.Println(err)
 	}
@@ -71,8 +71,8 @@ func ImageFit(numBatch, numEpochs int, lr float64) EvalFn {
 	width, height := img.Bounds().Max.X-img.Bounds().Min.X,
 		img.Bounds().Max.Y-img.Bounds().Min.Y
 
-	return func(g *Genome) float64 {
-		n, _ := NewDPPN(g, numBatch)
+	return func(g *mga.Genome) float64 {
+		n, _ := dppn.NewDPPN(g, numBatch)
 		avg := 0.0
 
 		for i := 0; i < numEpochs; i++ {
@@ -95,8 +95,8 @@ func ImageFit(numBatch, numEpochs int, lr float64) EvalFn {
 				target = append(target, float64(c.Y)/255.0)
 			}
 
-			inputBatch := NewDense(numBatch, 4, inputs)
-			targetBatch := NewDense(numBatch, 1, target)
+			inputBatch := mat64.NewDense(numBatch, 4, inputs)
+			targetBatch := mat64.NewDense(numBatch, 1, target)
 
 			mse, _ := n.Backprop(inputBatch, targetBatch, lr)
 
@@ -111,35 +111,25 @@ func ImageFit(numBatch, numEpochs int, lr float64) EvalFn {
 }
 
 func main() {
-	if len(os.Args) != 2 {
+	if len(os.Args) != 3 {
 		help()
 		return
 	}
 
-	// import configuration
-	f, err := os.Open(os.Args[1])
+	config, err := mga.NewMGAConfig(os.Args[1])
 	if err != nil {
-		fmt.Println(err)
-		return
-	}
-	defer f.Close()
-	dec := json.NewDecoder(f)
-
-	var config MGAConfig
-	if err := dec.Decode(&config); err != nil {
-		if err != io.EOF {
-			fmt.Println(err)
-			return
-		}
+		panic(err)
 	}
 
-	env, err := NewMGA(&config, InverseComparison(), ImageFit(16, 2000, 0.1))
+	env, err := mga.NewMGA(config,
+		mga.InverseComparison(),             // comparison function
+		genImage(os.Args[2], 16, 2000, 0.1)) // evaluation function
 	if err != nil {
-		fmt.Println(err)
-		return
+		panic(err)
 	}
 	env.Run(true, true)
 
+	// export all the images in the population
 	for _, genome := range env.Population {
 		draw(genome)
 	}

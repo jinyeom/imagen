@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/gonum/matrix/mat64"
-	"github.com/jinyeom/dppn/mga"
+	"github.com/jinyeom/imagen/mga"
 	"math"
 	"sort"
 )
@@ -109,8 +109,8 @@ type DPPN struct {
 }
 
 // NewDPPN decodes the argument genome and creates a DPPN.
-func NewDPPN(g *Genome, batchSize int) (*DPPN, error) {
-	nodes, err := func(g *Genome) ([]*Node, error) {
+func NewDPPN(g *mga.Genome, batchSize int) (*DPPN, error) {
+	nodes, err := func(g *mga.Genome) ([]*Node, error) {
 		nodes := make([]*Node, len(g.NodeGenes))
 		for i := range nodes {
 			nodes[i] = NewNode(g.NodeGenes[i], batchSize)
@@ -245,7 +245,7 @@ func (d *DPPN) Backprop(inputs, target *mat64.Dense,
 
 // Encode encodes the DPPN's weights to the argument genome. Return error if
 // the argument genome does not have the same ID as the DPPN.
-func (d *DPPN) Encode(g *Genome) error {
+func (d *DPPN) Encode(g *mga.Genome) error {
 	if d.ID != g.ID {
 		return fmt.Errorf("Invalid Genome: Must encode into a "+
 			"genome with the same ID (%d != %d)", d.ID, g.ID)
