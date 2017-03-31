@@ -3,11 +3,11 @@
 	"NumOutputs": 1,
 	"NumInitHidden": 4,
 	"PopulationSize": 100,
-	"NumTournaments": 1000,
+	"NumTournaments": 500,
 	"MutAddNodeRate": 0.3,
 	"MutAddEdgeRate": 0.5,
 	"CrossoverRate": 0.2,
-	"NumEpochs": 1000,
+	"NumEpochs": 5000,
 	"BatchSize": 16,
-	"LearningRate": 0.01
+	"LearningRate": 0.1
 }

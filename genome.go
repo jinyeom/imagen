@@ -188,7 +188,7 @@ func (g *Genome) ToString() string {
 
 func (g *Genome) Export() error {
 	// genome_[id]_[exported time].txt
-	filename := fmt.Sprintf("genome_%d_%d", g.ID, time.Now().UnixNano())
+	filename := fmt.Sprintf("genome_%d_%d.txt", g.ID, time.Now().UnixNano())
 	f, err := os.Create(filename)
 	if err != nil {
 		return err
@@ -206,7 +206,7 @@ func (g *Genome) Export() error {
 	// edge data
 	for _, edge := range g.EdgeGenes {
 		dat := fmt.Sprintf("e %d %d %f",
-			edge.InputNode, edge.OutputNode, edge.Weight)
+			edge.InputNode.ID, edge.OutputNode.ID, edge.Weight)
 		_, err := f.WriteString(dat + "\n")
 		if err != nil {
 			return err
