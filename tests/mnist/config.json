@@ -4,7 +4,10 @@
 	"NumInitHidden": 4,
 	"PopulationSize": 100,
 	"NumTournaments": 500,
-	"MutAddNodeRate": 0.3,
-	"MutAddEdgeRate": 0.5,
-	"CrossoverRate": 0.2
+	"MutAddNodeRate": 0.5,
+	"MutAddEdgeRate": 0.7,
+	"CrossoverRate": 0.2,
+	"NumEpochs": 1000,
+	"BatchSize": 16,
+	"LearningRate": 0.01
 }

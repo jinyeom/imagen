@@ -1,7 +1,7 @@
 /*
 
 
-evaluation_func.go implementation of evaluation functions for mGA.
+util.go extra functions needed for mGA.
 
 @licstart   The following is the entire license notice for
 the Go code in this page.
@@ -33,8 +33,30 @@ for the Go code in this page.
 
 */
 
-package mga
+package main
 
-// EvaluationFunc defines a type of function that evaluates a genome and
-// returns the fitness score of the genome.
-type EvaluationFunc func(g *Genome) float64
+import (
+	"math/rand"
+)
+
+// randWeight returns a random connection weight.
+func randWeight() float64 {
+	return rand.NormFloat64()
+}
+
+// randAFuncName returns a random activation function name.
+func randAFuncName() string {
+	options := []string{
+		"identity",
+		"sigmoid",
+		"tanh",
+		"relu",
+		"sine",
+		"gaussian",
+	}
+	return options[rand.Intn(len(options))]
+}
+
+func randGenome(population []*Genome) *Genome {
+	return population[rand.Intn(len(population))]
+}

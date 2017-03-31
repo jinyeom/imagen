@@ -38,8 +38,6 @@ package main
 import (
 	"fmt"
 	"github.com/gonum/matrix/mat64"
-	"github.com/jinyeom/imagen/dppn"
-	"github.com/jinyeom/imagen/mga"
 	"image"
 	"image/color"
 	"image/png"
@@ -52,14 +50,14 @@ func help() {
 	fmt.Println("Imagen (Image Generation via DPPN)")
 	fmt.Println("Copyright (c) 2017 by Jin Yeom")
 	fmt.Println("User Manual:")
-	fmt.Println("\timagen [config].json [filename].png")
+	fmt.Println("  imagen [filename].png [config].json")
 }
 
-func draw(g *mga.Genome) {
+func draw(g *Genome) {
 	width := 50
 	height := 41
 
-	n, _ := dppn.NewDPPN(g, 1)
+	n, _ := NewDPPN(g, 1)
 	imge := image.NewGray(image.Rect(0, 0, width, height))
 
 	for y := 0; y < height; y++ {
@@ -91,7 +89,7 @@ func draw(g *mga.Genome) {
 // genImage returns an evaluation function for fitting the argument image's
 // pixel value distribution.
 func genImage(filename string, numBatch, numEpochs int,
-	lr float64) mga.EvaluationFunc {
+	learningRate float64) EvaluationFunc {
 	// target image
 	f, err := os.Open(filename)
 	if err != nil {
@@ -107,8 +105,8 @@ func genImage(filename string, numBatch, numEpochs int,
 	width, height := img.Bounds().Max.X-img.Bounds().Min.X,
 		img.Bounds().Max.Y-img.Bounds().Min.Y
 
-	return func(g *mga.Genome) float64 {
-		n, _ := dppn.NewDPPN(g, numBatch)
+	return func(g *Genome) float64 {
+		n, _ := NewDPPN(g, numBatch)
 		avg := 0.0
 
 		for i := 0; i < numEpochs; i++ {
@@ -134,7 +132,7 @@ func genImage(filename string, numBatch, numEpochs int,
 			inputBatch := mat64.NewDense(numBatch, 4, inputs)
 			targetBatch := mat64.NewDense(numBatch, 1, target)
 
-			mse, _ := n.Backprop(inputBatch, targetBatch, lr)
+			mse, _ := n.Backprop(inputBatch, targetBatch, learningRate)
 
 			avg += mse
 		}
@@ -152,18 +150,24 @@ func main() {
 		return
 	}
 
-	config, err := mga.NewMGAConfig(os.Args[1])
+	imgFile := os.Args[1]
+	configFile := os.Args[2]
+
+	config, err := NewConfiguration(configFile)
 	if err != nil {
 		panic(err)
 	}
 
-	env, err := mga.NewMGA(config,
-		mga.InverseComparison(),             // comparison function
-		genImage(os.Args[2], 16, 2000, 0.1)) // evaluation function
+	rand.Seed(config.Seed)
+
+	env, err := NewMGA(config,
+		InverseComparison(),
+		genImage(imgFile, config.BatchSize,
+			config.NumEpochs, config.LearningRate))
 	if err != nil {
 		panic(err)
 	}
-	env.Run(true, true)
+	env.Run(true, true, true)
 
 	// export all the images in the population
 	for _, genome := range env.Population {

@@ -33,51 +33,16 @@ for the Go code in this page.
 
 */
 
-package mga
+package main
 
 import (
-	"encoding/json"
 	"fmt"
-	"io"
 	"math/rand"
-	"os"
 )
-
-// MGAConfig is a container for all configurations of microbial Genetic
-// Algorithm (mGA). It is meant to be imported via a JSON file.
-type MGAConfig struct {
-	NumInputs      int     // number of inputs
-	NumOutputs     int     // number of outputs
-	NumInitHidden  int     // number of initial hidden nodes
-	PopulationSize int     // population size
-	NumTournaments int     // number of tournaments
-	MutAddNodeRate float64 // mutation rate for adding an node
-	MutAddEdgeRate float64 // mutation rate for adding an edge
-	CrossoverRate  float64 // crossover rate
-}
-
-func NewMGAConfig(filename string) (*MGAConfig, error) {
-	// import configuration
-	f, err := os.Open(filename)
-	if err != nil {
-		return nil, err
-	}
-	defer f.Close()
-	dec := json.NewDecoder(f)
-
-	var config MGAConfig
-	if err := dec.Decode(&config); err != nil {
-		if err != io.EOF {
-			return nil, err
-		}
-	}
-
-	return &config, nil
-}
 
 // MGA contains an environment of the microbial Genetic Algorithm (mGA).
 type MGA struct {
-	Config     *MGAConfig     // configuration
+	Config     *Configuration // configuration
 	Log        *LogBook       // log book
 	Population []*Genome      // population of genomes
 	Comparison ComparisonFunc // comparison function
@@ -86,7 +51,7 @@ type MGA struct {
 
 // NewMGA creates a new environment for microbial Genetic Algorithm (mGA). It
 // returns an error if an invalid configuration file is provided.
-func NewMGA(config *MGAConfig, comparison ComparisonFunc,
+func NewMGA(config *Configuration, comparison ComparisonFunc,
 	evaluation EvaluationFunc) (*MGA, error) {
 	population := make([]*Genome, config.PopulationSize)
 	for i := range population {
@@ -104,7 +69,7 @@ func NewMGA(config *MGAConfig, comparison ComparisonFunc,
 }
 
 // Run performs microbial Genetic Algorithm (mGA).
-func (m *MGA) Run(verbose, exportLog bool) float64 {
+func (m *MGA) Run(verbose, exportLog, exportBest bool) float64 {
 	bestScore := 0.0
 	if m.Comparison(bestScore, 9999.0) {
 		bestScore = 9999.0
@@ -167,9 +132,15 @@ func (m *MGA) Run(verbose, exportLog bool) float64 {
 	}
 
 	if exportLog {
-		err := m.Log.Export()
-		if err != nil {
+		if err := m.Log.Export(); err != nil {
 			fmt.Println("Log export failed:")
+			fmt.Println(err)
+		}
+	}
+
+	if exportBest {
+		if err := m.Log.Best.Export(); err != nil {
+			fmt.Println("Best genome export failed:")
 			fmt.Println(err)
 		}
 	}

@@ -1,9 +1,8 @@
-package dppn
+package main
 
 import (
 	"fmt"
 	"github.com/gonum/matrix/mat64"
-	. "github.com/jinyeom/ean/mga"
 	//"image"
 	//"image/color"
 	//"image/png"

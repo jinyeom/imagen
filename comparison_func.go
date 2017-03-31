@@ -1,7 +1,7 @@
 /*
 
 
-util.go extra functions needed for mGA.
+comparison_func.go implementation of comparison functions for mGA.
 
 @licstart   The following is the entire license notice for
 the Go code in this page.
@@ -33,30 +33,25 @@ for the Go code in this page.
 
 */
 
-package mga
+package main
 
-import (
-	"math/rand"
-)
+// ComparisonFunc defines a type of function that compares two fitness scores
+// (float64) and returns true if the first argument fitness score is more fit
+// than the second, false if otherwise.
+type ComparisonFunc func(float64, float64) bool
 
-// randWeight returns a random connection weight.
-func randWeight() float64 {
-	return rand.NormFloat64()
-}
-
-// randAFuncName returns a random activation function name.
-func randAFuncName() string {
-	options := []string{
-		"identity",
-		"sigmoid",
-		"tanh",
-		"relu",
-		"sine",
-		"gaussian",
+// DirectComparison returns a comparison function that returns true if the
+// first argument fitness score is higher than the second.
+func DirectComparison() ComparisonFunc {
+	return func(score0, score1 float64) bool {
+		return score0 > score1
 	}
-	return options[rand.Intn(len(options))]
 }
 
-func randGenome(population []*Genome) *Genome {
-	return population[rand.Intn(len(population))]
+// InverseComparison returns a comparison function that returns true if the
+// first argument fitness score is lower than the second.
+func InverseComparison() ComparisonFunc {
+	return func(score0, score1 float64) bool {
+		return score0 < score1
+	}
 }

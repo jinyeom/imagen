@@ -1,4 +1,4 @@
-package mga
+package main
 
 import (
 	"fmt"
