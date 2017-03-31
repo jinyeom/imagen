@@ -90,7 +90,8 @@ func draw(g *mga.Genome) {
 
 // genImage returns an evaluation function for fitting the argument image's
 // pixel value distribution.
-func genImage(filename string, numBatch, numEpochs int, lr float64) mga.EvalFn {
+func genImage(filename string, numBatch, numEpochs int,
+	lr float64) mga.EvaluationFunc {
 	// target image
 	f, err := os.Open(filename)
 	if err != nil {

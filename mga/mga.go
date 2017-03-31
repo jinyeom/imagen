@@ -77,16 +77,17 @@ func NewMGAConfig(filename string) (*MGAConfig, error) {
 
 // MGA contains an environment of the microbial Genetic Algorithm (mGA).
 type MGA struct {
-	Config     *MGAConfig // configuration
-	Log        *LogBook   // log book
-	Population []*Genome  // population of genomes
-	Comparison CompFn     // comparison function
-	Evaluation EvalFn     // evaluation function
+	Config     *MGAConfig     // configuration
+	Log        *LogBook       // log book
+	Population []*Genome      // population of genomes
+	Comparison ComparisonFunc // comparison function
+	Evaluation EvaluationFunc // evaluation function
 }
 
 // NewMGA creates a new environment for microbial Genetic Algorithm (mGA). It
 // returns an error if an invalid configuration file is provided.
-func NewMGA(config *MGAConfig, cfn CompFn, efn EvalFn) (*MGA, error) {
+func NewMGA(config *MGAConfig, comparison ComparisonFunc,
+	evaluation EvaluationFunc) (*MGA, error) {
 	population := make([]*Genome, config.PopulationSize)
 	for i := range population {
 		population[i] = NewGenome(i, config.NumInputs,
@@ -97,8 +98,8 @@ func NewMGA(config *MGAConfig, cfn CompFn, efn EvalFn) (*MGA, error) {
 		Config:     config,
 		Log:        NewLogBook(config.NumTournaments),
 		Population: population,
-		Comparison: cfn,
-		Evaluation: efn,
+		Comparison: comparison,
+		Evaluation: evaluation,
 	}, nil
 }
 

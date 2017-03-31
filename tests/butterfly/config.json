@@ -2,7 +2,7 @@
 	"NumInputs": 4,
 	"NumOutputs": 1,
 	"NumInitHidden": 4,
-	"PopulationSize": 50,
+	"PopulationSize": 100,
 	"NumTournaments": 500,
 	"MutAddNodeRate": 0.3,
 	"MutAddEdgeRate": 0.5,

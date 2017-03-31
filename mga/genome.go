@@ -39,7 +39,9 @@ import (
 	"errors"
 	"fmt"
 	"math/rand"
+	"os"
 	"sort"
+	"time"
 )
 
 // NodeGene represents a node in the graph representation of a genome.
@@ -186,13 +188,14 @@ func (g *Genome) ToString() string {
 
 func (g *Genome) Export() error {
 	// genome_[id]_[exported time].txt
-	f, err := os.Create("genome_%d_%d", g.ID, time.Now().UnixNano())
+	filename := fmt.Sprintf("genome_%d_%d", g.ID, time.Now().UnixNano())
+	f, err := os.Create(filename)
 	if err != nil {
 		return err
 	}
 
 	// node data
-	for _, node := range g.NodeGene {
+	for _, node := range g.NodeGenes {
 		dat := fmt.Sprintf("n %d %s %s", node.ID, node.Type, node.AFuncType)
 		_, err := f.WriteString(dat + "\n")
 		if err != nil {
@@ -201,8 +204,9 @@ func (g *Genome) Export() error {
 	}
 
 	// edge data
-	for _, edge := range g.EdgeGene {
-		dat := fmt.Sprintf("e %d %d %f", edge.InputNode, node.Type, node.AFuncType)
+	for _, edge := range g.EdgeGenes {
+		dat := fmt.Sprintf("e %d %d %f",
+			edge.InputNode, edge.OutputNode, edge.Weight)
 		_, err := f.WriteString(dat + "\n")
 		if err != nil {
 			return err

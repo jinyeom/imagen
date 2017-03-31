@@ -41,11 +41,13 @@ import (
 	"time"
 )
 
+// LogBook keeps track of each tournament and its result in mGA.
 type LogBook struct {
 	Best *Genome  // best performing genome
 	Log  []string // log of each tournament
 }
 
+// NewLogBook creates a new LogBook, provided the number of tournaments.
 func NewLogBook(numTournaments int) *LogBook {
 	return &LogBook{
 		Best: &Genome{},
@@ -54,7 +56,7 @@ func NewLogBook(numTournaments int) *LogBook {
 }
 
 func (l *LogBook) Record(g1, g2 int, score1, score2, bestScore float64) {
-	log := fmt.Sprintf("Tournament [%d (%.3f) and %d (%.3f)]; Best score: %.3f",
+	log := fmt.Sprintf("Tournament [%d (%f) and %d (%f)]; Best score: %f",
 		g1, score1, g2, score2, bestScore)
 	l.Log = append(l.Log, log)
 }
