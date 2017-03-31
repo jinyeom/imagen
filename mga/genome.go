@@ -1,3 +1,38 @@
+/*
+
+
+genome.go implementation of the genome in mGA.
+
+@licstart   The following is the entire license notice for
+the Go code in this page.
+
+Copyright (C) 2017 jin yeom
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+@licend    The above is the entire license notice
+for the Go code in this page.
+
+
+*/
+
 package mga
 
 import (
@@ -147,6 +182,34 @@ func (g *Genome) ToString() string {
 		edge.OutputNode.AFuncType)
 
 	return str
+}
+
+func (g *Genome) Export() error {
+	// genome_[id]_[exported time].txt
+	f, err := os.Create("genome_%d_%d", g.ID, time.Now().UnixNano())
+	if err != nil {
+		return err
+	}
+
+	// node data
+	for _, node := range g.NodeGene {
+		dat := fmt.Sprintf("n %d %s %s", node.ID, node.Type, node.AFuncType)
+		_, err := f.WriteString(dat + "\n")
+		if err != nil {
+			return err
+		}
+	}
+
+	// edge data
+	for _, edge := range g.EdgeGene {
+		dat := fmt.Sprintf("e %d %d %f", edge.InputNode, node.Type, node.AFuncType)
+		_, err := f.WriteString(dat + "\n")
+		if err != nil {
+			return err
+		}
+	}
+
+	return nil
 }
 
 // pathSearch checks if there is a path from the start node to the goal node
