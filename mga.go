@@ -69,7 +69,7 @@ func NewMGA(config *Configuration, comparison ComparisonFunc,
 }
 
 // Run performs microbial Genetic Algorithm (mGA).
-func (m *MGA) Run(verbose, exportLog, exportBest bool) float64 {
+func (m *MGA) Run(verbose, exportLog bool) float64 {
 	bestScore := 0.0
 	if m.Comparison(bestScore, 9999.0) {
 		bestScore = 9999.0
@@ -134,13 +134,6 @@ func (m *MGA) Run(verbose, exportLog, exportBest bool) float64 {
 	if exportLog {
 		if err := m.Log.Export(); err != nil {
 			fmt.Println("Log export failed:")
-			fmt.Println(err)
-		}
-	}
-
-	if exportBest {
-		if err := m.Log.Best.Export(); err != nil {
-			fmt.Println("Best genome export failed:")
 			fmt.Println(err)
 		}
 	}

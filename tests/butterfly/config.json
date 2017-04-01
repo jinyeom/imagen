@@ -3,12 +3,12 @@
 	"NumInputs": 4,
 	"NumOutputs": 1,
 	"NumInitHidden": 4,
-	"PopulationSize": 100,
+	"PopulationSize": 50,
 	"NumTournaments": 500,
 	"MutAddNodeRate": 0.3,
-	"MutAddEdgeRate": 0.5,
+	"MutAddEdgeRate": 0.3,
 	"CrossoverRate": 0.2,
-	"NumEpochs": 5000,
+	"NumEpochs": 2000,
 	"BatchSize": 16,
 	"LearningRate": 0.1
 }

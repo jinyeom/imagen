@@ -205,11 +205,13 @@ func (g *Genome) Export() error {
 
 	// edge data
 	for _, edge := range g.EdgeGenes {
-		dat := fmt.Sprintf("e %d %d %f",
-			edge.InputNode.ID, edge.OutputNode.ID, edge.Weight)
-		_, err := f.WriteString(dat + "\n")
-		if err != nil {
-			return err
+		if !edge.Disabled {
+			dat := fmt.Sprintf("e %d %d %f",
+				edge.InputNode.ID, edge.OutputNode.ID, edge.Weight)
+			_, err := f.WriteString(dat + "\n")
+			if err != nil {
+				return err
+			}
 		}
 	}
 

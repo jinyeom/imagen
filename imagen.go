@@ -53,12 +53,9 @@ func help() {
 	fmt.Println("  imagen [filename].png [config].json")
 }
 
-func draw(g *Genome) {
-	width := 50
-	height := 41
-
+func draw(g *Genome, width, height int) {
 	n, _ := NewDPPN(g, 1)
-	imge := image.NewGray(image.Rect(0, 0, width, height))
+	img := image.NewGray(image.Rect(0, 0, width, height))
 
 	for y := 0; y < height; y++ {
 		for x := 0; x < width; x++ {
@@ -66,14 +63,14 @@ func draw(g *Genome) {
 			fy := float64(y)
 			d := math.Sqrt((fx-float64(width)/2.0)*(fx-float64(width)/2.0) +
 				(fy-float64(height)/2.0)*(fy-float64(height)/2.0))
-			inputs := []float64{fx * 0.2, fy * 0.2, d * 0.2, 1.0}
+			inputs := []float64{fx * 0.1, fy * 0.1, d * 0.1, 1.0}
 			inputVec := mat64.NewDense(1, 4, inputs)
 
 			outputVec, _ := n.FeedForward(inputVec)
 			outputs := outputVec.RawMatrix().Data
 
 			c := color.Gray{uint8(outputs[0] * 255.0)}
-			imge.Set(x, y, c)
+			img.Set(x, y, c)
 		}
 	}
 
@@ -83,25 +80,13 @@ func draw(g *Genome) {
 	}
 	defer f1.Close()
 
-	png.Encode(f1, imge)
+	png.Encode(f1, img)
 }
 
 // genImage returns an evaluation function for fitting the argument image's
 // pixel value distribution.
-func genImage(filename string, numBatch, numEpochs int,
+func genImage(img *image.Gray, numBatch, numEpochs int,
 	learningRate float64) EvaluationFunc {
-	// target image
-	f, err := os.Open(filename)
-	if err != nil {
-		fmt.Println(err)
-	}
-	defer f.Close()
-
-	img, err := png.Decode(f)
-	if err != nil {
-		fmt.Println(err)
-	}
-
 	width, height := img.Bounds().Max.X-img.Bounds().Min.X,
 		img.Bounds().Max.Y-img.Bounds().Min.Y
 
@@ -122,7 +107,7 @@ func genImage(filename string, numBatch, numEpochs int,
 				fy := float64(y)
 				d := math.Sqrt((fx-float64(width)/2.0)*(fx-float64(width)/2.0) +
 					(fy-float64(height)/2.0)*(fy-float64(height)/2.0))
-				inputs = append(inputs, fx*0.2, fy*0.2, d*0.2, 1.0)
+				inputs = append(inputs, fx*0.1, fy*0.1, d*0.1, 1.0)
 
 				// target
 				c := img.At(x, y).(color.Gray)
@@ -132,8 +117,10 @@ func genImage(filename string, numBatch, numEpochs int,
 			inputBatch := mat64.NewDense(numBatch, 4, inputs)
 			targetBatch := mat64.NewDense(numBatch, 1, target)
 
-			mse, _ := n.Backprop(inputBatch, targetBatch, learningRate)
-
+			mse, err := n.Backprop(inputBatch, targetBatch, learningRate)
+			if err != nil {
+				panic(err)
+			}
 			avg += mse
 		}
 
@@ -153,6 +140,18 @@ func main() {
 	imgFile := os.Args[1]
 	configFile := os.Args[2]
 
+	// image file
+	f, err := os.Open(imgFile)
+	if err != nil {
+		panic(err)
+	}
+	defer f.Close()
+	img, err := png.Decode(f)
+	if err != nil {
+		panic(err)
+	}
+
+	// config file
 	config, err := NewConfiguration(configFile)
 	if err != nil {
 		panic(err)
@@ -162,15 +161,18 @@ func main() {
 
 	env, err := NewMGA(config,
 		InverseComparison(),
-		genImage(imgFile, config.BatchSize,
+		genImage(img.(*image.Gray), config.BatchSize,
 			config.NumEpochs, config.LearningRate))
 	if err != nil {
 		panic(err)
 	}
-	env.Run(true, true, true)
+	env.Run(true, true)
 
-	// export all the images in the population
+	// export all the images and genomes in the population
+	width, height := img.Bounds().Max.X-img.Bounds().Min.X,
+		img.Bounds().Max.Y-img.Bounds().Min.Y
 	for _, genome := range env.Population {
-		draw(genome)
+		draw(genome, width, height)
+		genome.Export()
 	}
 }
