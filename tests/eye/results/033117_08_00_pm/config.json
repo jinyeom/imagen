@@ -1,0 +1,14 @@
+{
+	"Seed": 0,
+	"NumInputs": 4,
+	"NumOutputs": 1,
+	"NumInitHidden": 2,
+	"PopulationSize": 50,
+	"NumTournaments": 500,
+	"MutAddNodeRate": 0.3,
+	"MutAddEdgeRate": 0.5,
+	"CrossoverRate": 0.2,
+	"NumEpochs": 2000,
+	"BatchSize": 16,
+	"LearningRate": 0.1
+}

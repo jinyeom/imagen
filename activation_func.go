@@ -47,6 +47,8 @@ var (
 		"sigmoid":  Sigmoid(),
 		"tanh":     Tanh(),
 		"relu":     ReLU(),
+		"elu":      ELU(1.0),
+		"abs":      Abs(),
 		"sine":     Sin(),
 		"gaussian": Gaussian(0.0, 1.0),
 	}
@@ -113,6 +115,41 @@ func ReLU() *ActivationFunc {
 				return 1.0
 			}
 			return 0.0
+		},
+	}
+}
+
+func ELU(a float64) *ActivationFunc {
+	return &ActivationFunc{
+		Name: "elu",
+		Fn: func(x float64) float64 {
+			if x >= 0.0 {
+				return x
+			}
+			x = math.Max(-60.0, math.Min(60.0, 2.5*x))
+			return a * (math.Exp(x) - 1.0)
+		},
+		DFn: func(x float64) float64 {
+			if x >= 0.0 {
+				return 1.0
+			}
+			x = math.Max(-60.0, math.Min(60.0, 2.5*x))
+			return a*(math.Exp(x)-1.0) + a
+		},
+	}
+}
+
+func Abs() *ActivationFunc {
+	return &ActivationFunc{
+		Name: "abs",
+		Fn: func(x float64) float64 {
+			return math.Abs(x)
+		},
+		DFn: func(x float64) float64 {
+			if x >= 0.0 {
+				return 1.0
+			}
+			return -1.0
 		},
 	}
 }

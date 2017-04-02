@@ -155,26 +155,24 @@ func NewDPPN(g *Genome, batchSize int) (*DPPN, error) {
 		})
 
 		for _, edge := range g.EdgeGenes {
-			if edge.Disabled == false {
-				input := sort.Search(len(nodes), func(j int) bool {
-					return nodes[j].ID >= edge.InputNode.ID
-				})
-				output := sort.Search(len(nodes), func(j int) bool {
-					return nodes[j].ID >= edge.OutputNode.ID
-				})
+			input := sort.Search(len(nodes), func(j int) bool {
+				return nodes[j].ID >= edge.InputNode.ID
+			})
+			output := sort.Search(len(nodes), func(j int) bool {
+				return nodes[j].ID >= edge.OutputNode.ID
+			})
 
-				// Panic if the genome contains an edge that connect nodes
-				// that do not exist.
-				if nodes[input].ID != edge.InputNode.ID ||
-					nodes[output].ID != edge.OutputNode.ID {
-					err := errors.New("Invalid edge found in the genome")
-					return nil, err
-				}
-
-				// connect from input layer to output layer
-				nodes[output].Inputs[nodes[input]] = edge.Weight
-				nodes[input].Outputs[nodes[output]] = edge.Weight
+			// Panic if the genome contains an edge that connect nodes
+			// that do not exist.
+			if nodes[input].ID != edge.InputNode.ID ||
+				nodes[output].ID != edge.OutputNode.ID {
+				err := errors.New("Invalid edge found in the genome")
+				return nil, err
 			}
+
+			// connect from input layer to output layer
+			nodes[output].Inputs[nodes[input]] = edge.Weight
+			nodes[input].Outputs[nodes[output]] = edge.Weight
 		}
 		return nodes, nil
 	}(g)

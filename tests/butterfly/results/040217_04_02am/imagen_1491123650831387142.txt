@@ -1,0 +1,891 @@
+Tournament [45 (20.644457) and 41 (9.536167)]; Best score: 9.536167
+Tournament [24 (9.057220) and 34 (17.066055)]; Best score: 9.057220
+Tournament [29 (39.992376) and 9 (10.257125)]; Best score: 9.057220
+Tournament [4 (16.701719) and 0 (12.229880)]; Best score: 9.057220
+Tournament [18 (18.891629) and 49 (9.571010)]; Best score: 9.057220
+Tournament [29 (9.934693) and 24 (7.854919)]; Best score: 7.854919
+Tournament [12 (44.344431) and 30 (13.931487)]; Best score: 7.854919
+Tournament [18 (10.976938) and 28 (88.526691)]; Best score: 7.854919
+Tournament [27 (15.065693) and 28 (86.390421)]; Best score: 7.854919
+Tournament [1 (12.794885) and 6 (11.274590)]; Best score: 7.854919
+Tournament [42 (26.198025) and 41 (8.174372)]; Best score: 7.854919
+Tournament [38 (17.288923) and 37 (12.704060)]; Best score: 7.854919
+Tournament [20 (17.627741) and 9 (7.268695)]; Best score: 7.268695
+Tournament [15 (16.665318) and 20 (9.079777)]; Best score: 7.268695
+Tournament [47 (13.624524) and 1 (9.657797)]; Best score: 7.268695
+Tournament [16 (20.457996) and 23 (14.478428)]; Best score: 7.268695
+Tournament [45 (9.397559) and 22 (14.265011)]; Best score: 7.268695
+Tournament [41 (6.629266) and 12 (10.086157)]; Best score: 6.629266
+Tournament [32 (18.976198) and 4 (8.443992)]; Best score: 6.629266
+Tournament [36 (29.590656) and 48 (11.761123)]; Best score: 6.629266
+Tournament [19 (22.619752) and 40 (11.003683)]; Best score: 6.629266
+Tournament [14 (45.351587) and 13 (29.913599)]; Best score: 6.629266
+Tournament [43 (15.974999) and 21 (16.551571)]; Best score: 6.629266
+Tournament [7 (27.058031) and 34 (10.101822)]; Best score: 6.629266
+Tournament [31 (34.142543) and 48 (8.200785)]; Best score: 6.629266
+Tournament [29 (7.940988) and 15 (8.967484)]; Best score: 6.629266
+Tournament [49 (8.277092) and 48 (8.341196)]; Best score: 6.629266
+Tournament [2 (17.983837) and 23 (8.399815)]; Best score: 6.629266
+Tournament [34 (9.091933) and 42 (8.312171)]; Best score: 6.629266
+Tournament [19 (8.461276) and 36 (8.155297)]; Best score: 6.629266
+Tournament [27 (9.188611) and 30 (8.666509)]; Best score: 6.629266
+Tournament [39 (16.139794) and 20 (8.352333)]; Best score: 6.629266
+Tournament [20 (8.825608) and 25 (9.823508)]; Best score: 6.629266
+Tournament [12 (9.776790) and 21 (8.597685)]; Best score: 6.629266
+Tournament [12 (8.651426) and 24 (8.170128)]; Best score: 6.629266
+Tournament [44 (145.175721) and 24 (8.081436)]; Best score: 6.629266
+Tournament [28 (58.697888) and 18 (9.460882)]; Best score: 6.629266
+Tournament [22 (10.463460) and 29 (7.392111)]; Best score: 6.629266
+Tournament [21 (8.117302) and 5 (25.696910)]; Best score: 6.629266
+Tournament [28 (62.047477) and 48 (8.965309)]; Best score: 6.629266
+Tournament [32 (8.565671) and 15 (8.345523)]; Best score: 6.629266
+Tournament [37 (8.543350) and 29 (7.354473)]; Best score: 6.629266
+Tournament [47 (10.132283) and 6 (9.225926)]; Best score: 6.629266
+Tournament [47 (10.007014) and 25 (10.654312)]; Best score: 6.629266
+Tournament [40 (10.412459) and 27 (8.597286)]; Best score: 6.629266
+Tournament [10 (21.596445) and 41 (6.942938)]; Best score: 6.629266
+Tournament [12 (8.103264) and 8 (20.936998)]; Best score: 6.629266
+Tournament [1 (9.244023) and 6 (10.796976)]; Best score: 6.629266
+Tournament [28 (125.496172) and 43 (8.643917)]; Best score: 6.629266
+Tournament [23 (8.140003) and 6 (11.106292)]; Best score: 6.629266
+Tournament [11 (29.834708) and 20 (7.590996)]; Best score: 6.629266
+Tournament [0 (9.329024) and 10 (7.516770)]; Best score: 6.629266
+Tournament [27 (8.561027) and 42 (7.525173)]; Best score: 6.629266
+Tournament [45 (9.028057) and 7 (9.124850)]; Best score: 6.629266
+Tournament [38 (9.589262) and 7 (8.303802)]; Best score: 6.629266
+Tournament [21 (7.674592) and 41 (6.993984)]; Best score: 6.629266
+Tournament [8 (11.376315) and 36 (8.394918)]; Best score: 6.629266
+Tournament [43 (7.659567) and 19 (8.190793)]; Best score: 6.629266
+Tournament [23 (7.812556) and 36 (8.378091)]; Best score: 6.629266
+Tournament [24 (7.793061) and 46 (13.084650)]; Best score: 6.629266
+Tournament [30 (8.520508) and 19 (8.161341)]; Best score: 6.629266
+Tournament [29 (9.037647) and 40 (10.796510)]; Best score: 6.629266
+Tournament [6 (9.138879) and 18 (8.767361)]; Best score: 6.629266
+Tournament [27 (7.436459) and 8 (9.362772)]; Best score: 6.629266
+Tournament [31 (13.561528) and 36 (8.852094)]; Best score: 6.629266
+Tournament [24 (6.507296) and 43 (7.918144)]; Best score: 6.507296
+Tournament [48 (9.675217) and 38 (9.870766)]; Best score: 6.507296
+Tournament [30 (8.715202) and 35 (26.057680)]; Best score: 6.507296
+Tournament [38 (10.448862) and 47 (10.024268)]; Best score: 6.507296
+Tournament [35 (8.490336) and 25 (9.044699)]; Best score: 6.507296
+Tournament [7 (7.791272) and 11 (10.145518)]; Best score: 6.507296
+Tournament [12 (7.432963) and 4 (8.024859)]; Best score: 6.507296
+Tournament [19 (7.608247) and 42 (8.181647)]; Best score: 6.507296
+Tournament [6 (8.364602) and 12 (7.654534)]; Best score: 6.507296
+Tournament [29 (10.703085) and 18 (8.454506)]; Best score: 6.507296
+Tournament [17 (12.026203) and 45 (9.223098)]; Best score: 6.507296
+Tournament [7 (7.982386) and 25 (10.984916)]; Best score: 6.507296
+Tournament [21 (7.478431) and 18 (8.604750)]; Best score: 6.507296
+Tournament [7 (8.314975) and 16 (8.423471)]; Best score: 6.507296
+Tournament [48 (8.504069) and 29 (8.471566)]; Best score: 6.507296
+Tournament [46 (7.970391) and 4 (8.197911)]; Best score: 6.507296
+Tournament [15 (7.788047) and 36 (8.942417)]; Best score: 6.507296
+Tournament [2 (9.420914) and 8 (7.952316)]; Best score: 6.507296
+Tournament [49 (8.429079) and 6 (9.000963)]; Best score: 6.507296
+Tournament [8 (7.665083) and 40 (14.814395)]; Best score: 6.507296
+Tournament [23 (7.652932) and 42 (7.915275)]; Best score: 6.507296
+Tournament [21 (7.468898) and 19 (7.486409)]; Best score: 6.507296
+Tournament [36 (7.598048) and 35 (8.328944)]; Best score: 6.507296
+Tournament [30 (9.071003) and 33 (38.910734)]; Best score: 6.507296
+Tournament [11 (9.607887) and 39 (8.715570)]; Best score: 6.507296
+Tournament [42 (8.071256) and 0 (9.467872)]; Best score: 6.507296
+Tournament [23 (7.360811) and 5 (7.037659)]; Best score: 6.507296
+Tournament [19 (8.101823) and 11 (9.810197)]; Best score: 6.507296
+Tournament [32 (8.552077) and 8 (7.431212)]; Best score: 6.507296
+Tournament [3 (35.328852) and 13 (10.068316)]; Best score: 6.507296
+Tournament [37 (8.570238) and 27 (7.510762)]; Best score: 6.507296
+Tournament [6 (7.577613) and 31 (9.047507)]; Best score: 6.507296
+Tournament [3 (9.864327) and 44 (25.770387)]; Best score: 6.507296
+Tournament [31 (9.115548) and 25 (11.426918)]; Best score: 6.507296
+Tournament [6 (7.136394) and 16 (8.149656)]; Best score: 6.507296
+Tournament [22 (9.878149) and 26 (11.239312)]; Best score: 6.507296
+Tournament [12 (8.080254) and 20 (7.743535)]; Best score: 6.507296
+Tournament [28 (169.781275) and 17 (7.776148)]; Best score: 6.507296
+Tournament [16 (8.282340) and 38 (9.968210)]; Best score: 6.507296
+Tournament [2 (9.073831) and 29 (7.182271)]; Best score: 6.507296
+Tournament [4 (7.802144) and 8 (7.692698)]; Best score: 6.507296
+Tournament [2 (8.472941) and 12 (8.095963)]; Best score: 6.507296
+Tournament [31 (9.078158) and 21 (7.776908)]; Best score: 6.507296
+Tournament [12 (8.477112) and 15 (7.933927)]; Best score: 6.507296
+Tournament [19 (7.868815) and 26 (9.153573)]; Best score: 6.507296
+Tournament [31 (8.447008) and 37 (8.159657)]; Best score: 6.507296
+Tournament [4 (7.561473) and 39 (8.420245)]; Best score: 6.507296
+Tournament [49 (8.885388) and 34 (8.693785)]; Best score: 6.507296
+Tournament [32 (8.009752) and 47 (9.513086)]; Best score: 6.507296
+Tournament [33 (9.092349) and 31 (8.698423)]; Best score: 6.507296
+Tournament [18 (8.194373) and 6 (6.439384)]; Best score: 6.439384
+Tournament [32 (8.453850) and 34 (8.323604)]; Best score: 6.439384
+Tournament [33 (9.865651) and 33 (9.865651)]; Best score: 6.439384
+Tournament [40 (10.966069) and 16 (7.820560)]; Best score: 6.439384
+Tournament [6 (6.630042) and 33 (8.757266)]; Best score: 6.439384
+Tournament [48 (8.436190) and 47 (9.680653)]; Best score: 6.439384
+Tournament [23 (7.225259) and 10 (7.664825)]; Best score: 6.439384
+Tournament [10 (8.044336) and 9 (6.830882)]; Best score: 6.439384
+Tournament [43 (7.455733) and 17 (7.127204)]; Best score: 6.439384
+Tournament [17 (6.860356) and 27 (7.733555)]; Best score: 6.439384
+Tournament [21 (7.310136) and 17 (7.418103)]; Best score: 6.439384
+Tournament [48 (8.981112) and 12 (8.526867)]; Best score: 6.439384
+Tournament [40 (9.085944) and 31 (8.618474)]; Best score: 6.439384
+Tournament [26 (8.320176) and 21 (8.836294)]; Best score: 6.439384
+Tournament [6 (6.852700) and 29 (7.358818)]; Best score: 6.439384
+Tournament [20 (7.086429) and 24 (6.594605)]; Best score: 6.439384
+Tournament [40 (8.067764) and 6 (6.810007)]; Best score: 6.439384
+Tournament [49 (7.945168) and 28 (169.250510)]; Best score: 6.439384
+Tournament [33 (9.709977) and 41 (6.711482)]; Best score: 6.439384
+Tournament [25 (9.982873) and 7 (8.047515)]; Best score: 6.439384
+Tournament [37 (8.262136) and 13 (10.482516)]; Best score: 6.439384
+Tournament [24 (6.424949) and 20 (7.437579)]; Best score: 6.424949
+Tournament [20 (6.779778) and 5 (6.775508)]; Best score: 6.424949
+Tournament [3 (9.028808) and 19 (8.208016)]; Best score: 6.424949
+Tournament [46 (7.203976) and 28 (167.838834)]; Best score: 6.424949
+Tournament [19 (7.366017) and 9 (7.002433)]; Best score: 6.424949
+Tournament [12 (8.457919) and 22 (10.396869)]; Best score: 6.424949
+Tournament [39 (8.924039) and 26 (8.759175)]; Best score: 6.424949
+Tournament [13 (10.345494) and 9 (7.061230)]; Best score: 6.424949
+Tournament [16 (7.688103) and 44 (33.891307)]; Best score: 6.424949
+Tournament [23 (6.903300) and 37 (8.239912)]; Best score: 6.424949
+Tournament [36 (8.053118) and 29 (7.540119)]; Best score: 6.424949
+Tournament [15 (8.922536) and 0 (9.967290)]; Best score: 6.424949
+Tournament [27 (9.960392) and 38 (9.482681)]; Best score: 6.424949
+Tournament [14 (11.387547) and 42 (8.006449)]; Best score: 6.424949
+Tournament [27 (8.247035) and 30 (8.169947)]; Best score: 6.424949
+Tournament [24 (7.127190) and 42 (8.325019)]; Best score: 6.424949
+Tournament [29 (8.347581) and 15 (8.581462)]; Best score: 6.424949
+Tournament [28 (51.676644) and 10 (7.654793)]; Best score: 6.424949
+Tournament [3 (8.360571) and 2 (9.608234)]; Best score: 6.424949
+Tournament [21 (8.618579) and 0 (8.720749)]; Best score: 6.424949
+Tournament [14 (7.937163) and 18 (8.178623)]; Best score: 6.424949
+Tournament [8 (7.690715) and 18 (7.985916)]; Best score: 6.424949
+Tournament [20 (7.051906) and 40 (7.918032)]; Best score: 6.424949
+Tournament [4 (7.684033) and 25 (8.903514)]; Best score: 6.424949
+Tournament [16 (8.115142) and 3 (8.329060)]; Best score: 6.424949
+Tournament [21 (8.371144) and 26 (8.639660)]; Best score: 6.424949
+Tournament [48 (8.892738) and 21 (8.444043)]; Best score: 6.424949
+Tournament [30 (8.337526) and 18 (8.604169)]; Best score: 6.424949
+Tournament [38 (9.719189) and 29 (8.830294)]; Best score: 6.424949
+Tournament [41 (6.689928) and 49 (6.457183)]; Best score: 6.424949
+Tournament [15 (8.016252) and 15 (8.016252)]; Best score: 6.424949
+Tournament [23 (6.076845) and 29 (9.341632)]; Best score: 6.076845
+Tournament [23 (5.747459) and 23 (5.747459)]; Best score: 5.747459
+Tournament [7 (8.129165) and 31 (8.144579)]; Best score: 5.747459
+Tournament [46 (7.863516) and 23 (5.916800)]; Best score: 5.747459
+Tournament [49 (8.050459) and 17 (6.457443)]; Best score: 5.747459
+Tournament [7 (8.228163) and 15 (8.821216)]; Best score: 5.747459
+Tournament [16 (8.026319) and 34 (8.393970)]; Best score: 5.747459
+Tournament [47 (9.354701) and 47 (9.354701)]; Best score: 5.747459
+Tournament [17 (6.984996) and 11 (9.868316)]; Best score: 5.747459
+Tournament [41 (6.781058) and 27 (9.499426)]; Best score: 5.747459
+Tournament [41 (6.549264) and 42 (8.439574)]; Best score: 5.747459
+Tournament [25 (8.354572) and 10 (7.673590)]; Best score: 5.747459
+Tournament [9 (7.290566) and 41 (6.503164)]; Best score: 5.747459
+Tournament [6 (6.553590) and 14 (7.393307)]; Best score: 5.747459
+Tournament [42 (13.985927) and 9 (7.260211)]; Best score: 5.747459
+Tournament [48 (7.991339) and 37 (7.933065)]; Best score: 5.747459
+Tournament [16 (7.881251) and 33 (7.686099)]; Best score: 5.747459
+Tournament [9 (6.852209) and 25 (7.702860)]; Best score: 5.747459
+Tournament [41 (6.362199) and 20 (6.148530)]; Best score: 5.747459
+Tournament [16 (7.714679) and 25 (7.529065)]; Best score: 5.747459
+Tournament [26 (8.688077) and 34 (7.918204)]; Best score: 5.747459
+Tournament [22 (9.767981) and 46 (8.347249)]; Best score: 5.747459
+Tournament [20 (6.106963) and 43 (7.141549)]; Best score: 5.747459
+Tournament [21 (7.443696) and 1 (9.492640)]; Best score: 5.747459
+Tournament [36 (7.221871) and 45 (9.472641)]; Best score: 5.747459
+Tournament [39 (8.079333) and 28 (46.696723)]; Best score: 5.747459
+Tournament [22 (9.641171) and 44 (8.337636)]; Best score: 5.747459
+Tournament [20 (5.623877) and 21 (7.675328)]; Best score: 5.623877
+Tournament [32 (8.513066) and 15 (8.203531)]; Best score: 5.623877
+Tournament [3 (9.272925) and 24 (6.780907)]; Best score: 5.623877
+Tournament [18 (7.201685) and 2 (6.863577)]; Best score: 5.623877
+Tournament [41 (6.633350) and 17 (6.809734)]; Best score: 5.623877
+Tournament [13 (8.941518) and 3 (8.349611)]; Best score: 5.623877
+Tournament [17 (7.160734) and 15 (8.169691)]; Best score: 5.623877
+Tournament [24 (6.907687) and 29 (9.714113)]; Best score: 5.623877
+Tournament [29 (8.880945) and 49 (8.202692)]; Best score: 5.623877
+Tournament [9 (7.370172) and 35 (13.370121)]; Best score: 5.623877
+Tournament [44 (7.898364) and 31 (8.455586)]; Best score: 5.623877
+Tournament [20 (5.644550) and 33 (6.772591)]; Best score: 5.623877
+Tournament [48 (6.636213) and 12 (7.822394)]; Best score: 5.623877
+Tournament [38 (8.893191) and 49 (9.292366)]; Best score: 5.623877
+Tournament [1 (9.295443) and 16 (7.655666)]; Best score: 5.623877
+Tournament [8 (8.352358) and 26 (7.937318)]; Best score: 5.623877
+Tournament [25 (7.943013) and 27 (8.991210)]; Best score: 5.623877
+Tournament [35 (10.750350) and 1 (8.232581)]; Best score: 5.623877
+Tournament [11 (9.798200) and 1 (7.659504)]; Best score: 5.623877
+Tournament [14 (6.783210) and 33 (6.182492)]; Best score: 5.623877
+Tournament [36 (7.578256) and 27 (9.554608)]; Best score: 5.623877
+Tournament [11 (10.076788) and 38 (8.606436)]; Best score: 5.623877
+Tournament [43 (7.976298) and 27 (9.790569)]; Best score: 5.623877
+Tournament [13 (8.955557) and 40 (7.291476)]; Best score: 5.623877
+Tournament [6 (6.256141) and 1 (7.501171)]; Best score: 5.623877
+Tournament [36 (7.695357) and 12 (8.324202)]; Best score: 5.623877
+Tournament [11 (10.016487) and 46 (9.326214)]; Best score: 5.623877
+Tournament [15 (9.101125) and 36 (7.882239)]; Best score: 5.623877
+Tournament [27 (10.036789) and 36 (7.458766)]; Best score: 5.623877
+Tournament [31 (8.441534) and 35 (10.792063)]; Best score: 5.623877
+Tournament [37 (8.473101) and 27 (9.734138)]; Best score: 5.623877
+Tournament [20 (5.640826) and 48 (6.474186)]; Best score: 5.623877
+Tournament [18 (6.981183) and 47 (9.513695)]; Best score: 5.623877
+Tournament [37 (8.146635) and 19 (7.471011)]; Best score: 5.623877
+Tournament [32 (7.953094) and 31 (7.775232)]; Best score: 5.623877
+Tournament [48 (7.008165) and 36 (6.830426)]; Best score: 5.623877
+Tournament [29 (9.504368) and 49 (8.796158)]; Best score: 5.623877
+Tournament [29 (8.115237) and 11 (9.647546)]; Best score: 5.623877
+Tournament [5 (6.552485) and 12 (7.477894)]; Best score: 5.623877
+Tournament [25 (8.046222) and 44 (7.769640)]; Best score: 5.623877
+Tournament [35 (11.048434) and 23 (5.476107)]; Best score: 5.476107
+Tournament [30 (8.730507) and 33 (5.996777)]; Best score: 5.476107
+Tournament [40 (6.829204) and 6 (5.805472)]; Best score: 5.476107
+Tournament [26 (8.212155) and 9 (7.036879)]; Best score: 5.476107
+Tournament [4 (7.847178) and 18 (6.880196)]; Best score: 5.476107
+Tournament [16 (7.575029) and 12 (7.770678)]; Best score: 5.476107
+Tournament [15 (8.802372) and 0 (8.439846)]; Best score: 5.476107
+Tournament [43 (8.150031) and 15 (7.956022)]; Best score: 5.476107
+Tournament [3 (7.279365) and 11 (10.052519)]; Best score: 5.476107
+Tournament [15 (8.325072) and 23 (5.810808)]; Best score: 5.476107
+Tournament [38 (8.030039) and 45 (9.117766)]; Best score: 5.476107
+Tournament [4 (8.264923) and 19 (7.659297)]; Best score: 5.476107
+Tournament [44 (7.411646) and 12 (7.815614)]; Best score: 5.476107
+Tournament [23 (5.775987) and 28 (46.854508)]; Best score: 5.476107
+Tournament [12 (8.125959) and 34 (7.752314)]; Best score: 5.476107
+Tournament [9 (7.273963) and 3 (7.536568)]; Best score: 5.476107
+Tournament [40 (7.135407) and 13 (9.074337)]; Best score: 5.476107
+Tournament [21 (7.332100) and 35 (5.545921)]; Best score: 5.476107
+Tournament [42 (12.423767) and 32 (7.864904)]; Best score: 5.476107
+Tournament [41 (6.842092) and 23 (6.822213)]; Best score: 5.476107
+Tournament [41 (6.830267) and 27 (9.975594)]; Best score: 5.476107
+Tournament [43 (8.354841) and 43 (8.354841)]; Best score: 5.476107
+Tournament [34 (7.840901) and 9 (6.904944)]; Best score: 5.476107
+Tournament [43 (7.735844) and 18 (6.769389)]; Best score: 5.476107
+Tournament [22 (9.808468) and 19 (8.369931)]; Best score: 5.476107
+Tournament [12 (8.858543) and 38 (7.879184)]; Best score: 5.476107
+Tournament [4 (7.899020) and 17 (6.782279)]; Best score: 5.476107
+Tournament [22 (9.989048) and 46 (7.400971)]; Best score: 5.476107
+Tournament [48 (6.837640) and 49 (8.032769)]; Best score: 5.476107
+Tournament [28 (46.790944) and 41 (6.387302)]; Best score: 5.476107
+Tournament [40 (6.705358) and 5 (6.452725)]; Best score: 5.476107
+Tournament [6 (6.412008) and 7 (7.746869)]; Best score: 5.476107
+Tournament [4 (8.161338) and 29 (8.686222)]; Best score: 5.476107
+Tournament [37 (8.013672) and 41 (7.035734)]; Best score: 5.476107
+Tournament [35 (5.544888) and 6 (5.765536)]; Best score: 5.476107
+Tournament [22 (10.386593) and 13 (9.154934)]; Best score: 5.476107
+Tournament [39 (7.229897) and 17 (8.114161)]; Best score: 5.476107
+Tournament [45 (8.819802) and 49 (9.866426)]; Best score: 5.476107
+Tournament [33 (6.444221) and 13 (8.859260)]; Best score: 5.476107
+Tournament [13 (8.667385) and 45 (8.910210)]; Best score: 5.476107
+Tournament [13 (9.134284) and 24 (6.261505)]; Best score: 5.476107
+Tournament [47 (8.838402) and 39 (7.232247)]; Best score: 5.476107
+Tournament [43 (7.463543) and 13 (8.753427)]; Best score: 5.476107
+Tournament [11 (9.445033) and 40 (6.198561)]; Best score: 5.476107
+Tournament [23 (6.153543) and 41 (6.390931)]; Best score: 5.476107
+Tournament [7 (7.981066) and 23 (6.969457)]; Best score: 5.476107
+Tournament [1 (7.106440) and 4 (7.975033)]; Best score: 5.476107
+Tournament [31 (7.116096) and 19 (7.646641)]; Best score: 5.476107
+Tournament [10 (7.420728) and 5 (7.961123)]; Best score: 5.476107
+Tournament [37 (8.176404) and 39 (7.070130)]; Best score: 5.476107
+Tournament [13 (8.665285) and 21 (5.186339)]; Best score: 5.186339
+Tournament [8 (8.049718) and 31 (7.734102)]; Best score: 5.186339
+Tournament [13 (8.786704) and 16 (7.468804)]; Best score: 5.186339
+Tournament [2 (7.801664) and 38 (7.882822)]; Best score: 5.186339
+Tournament [0 (7.973690) and 12 (8.269918)]; Best score: 5.186339
+Tournament [43 (7.519194) and 19 (7.455408)]; Best score: 5.186339
+Tournament [25 (7.868719) and 28 (46.947609)]; Best score: 5.186339
+Tournament [42 (12.966638) and 14 (5.349760)]; Best score: 5.186339
+Tournament [17 (7.581460) and 8 (8.506110)]; Best score: 5.186339
+Tournament [17 (8.244562) and 27 (9.445457)]; Best score: 5.186339
+Tournament [32 (8.126363) and 11 (9.751101)]; Best score: 5.186339
+Tournament [4 (7.757811) and 10 (8.154933)]; Best score: 5.186339
+Tournament [9 (7.334334) and 34 (7.840084)]; Best score: 5.186339
+Tournament [49 (9.123599) and 46 (7.933726)]; Best score: 5.186339
+Tournament [41 (6.724012) and 35 (4.967918)]; Best score: 4.967918
+Tournament [43 (7.929264) and 28 (46.447286)]; Best score: 4.967918
+Tournament [1 (6.924334) and 28 (8.010173)]; Best score: 4.967918
+Tournament [20 (5.565447) and 10 (7.953947)]; Best score: 4.967918
+Tournament [22 (9.424739) and 32 (7.642329)]; Best score: 4.967918
+Tournament [41 (4.369240) and 34 (8.303870)]; Best score: 4.369240
+Tournament [31 (7.270754) and 17 (8.029558)]; Best score: 4.369240
+Tournament [11 (9.280790) and 32 (7.628115)]; Best score: 4.369240
+Tournament [49 (6.422422) and 7 (7.999053)]; Best score: 4.369240
+Tournament [14 (5.649412) and 28 (8.306222)]; Best score: 4.369240
+Tournament [35 (5.579589) and 3 (8.606230)]; Best score: 4.369240
+Tournament [11 (9.293129) and 19 (7.917878)]; Best score: 4.369240
+Tournament [33 (6.041045) and 38 (7.768940)]; Best score: 4.369240
+Tournament [7 (8.758913) and 6 (5.838774)]; Best score: 4.369240
+Tournament [2 (7.503277) and 3 (7.656381)]; Best score: 4.369240
+Tournament [26 (8.255646) and 14 (6.732183)]; Best score: 4.369240
+Tournament [3 (6.093494) and 37 (8.093030)]; Best score: 4.369240
+Tournament [40 (6.473506) and 41 (4.567465)]; Best score: 4.369240
+Tournament [42 (12.926054) and 28 (7.599579)]; Best score: 4.369240
+Tournament [44 (7.316445) and 19 (7.622080)]; Best score: 4.369240
+Tournament [4 (7.149928) and 44 (6.231385)]; Best score: 4.369240
+Tournament [16 (7.356002) and 20 (5.514080)]; Best score: 4.369240
+Tournament [3 (5.970387) and 1 (6.947673)]; Best score: 4.369240
+Tournament [43 (7.898187) and 6 (6.148171)]; Best score: 4.369240
+Tournament [24 (6.674411) and 20 (5.449401)]; Best score: 4.369240
+Tournament [32 (8.360519) and 32 (8.360519)]; Best score: 4.369240
+Tournament [33 (5.912636) and 32 (7.938287)]; Best score: 4.369240
+Tournament [15 (7.925350) and 38 (9.584338)]; Best score: 4.369240
+Tournament [47 (7.667443) and 22 (8.748577)]; Best score: 4.369240
+Tournament [18 (6.637983) and 44 (6.630187)]; Best score: 4.369240
+Tournament [49 (6.572566) and 32 (8.125212)]; Best score: 4.369240
+Tournament [1 (6.500553) and 14 (8.873840)]; Best score: 4.369240
+Tournament [45 (7.628619) and 26 (10.580142)]; Best score: 4.369240
+Tournament [38 (7.690540) and 7 (7.410771)]; Best score: 4.369240
+Tournament [39 (6.581585) and 27 (9.303380)]; Best score: 4.369240
+Tournament [20 (5.501696) and 1 (6.500021)]; Best score: 4.369240
+Tournament [5 (6.754931) and 22 (9.644188)]; Best score: 4.369240
+Tournament [1 (6.803261) and 10 (5.573319)]; Best score: 4.369240
+Tournament [21 (5.654714) and 3 (6.713117)]; Best score: 4.369240
+Tournament [28 (7.526513) and 17 (8.449642)]; Best score: 4.369240
+Tournament [14 (8.323862) and 2 (6.873784)]; Best score: 4.369240
+Tournament [19 (7.428897) and 30 (9.005351)]; Best score: 4.369240
+Tournament [5 (6.330661) and 36 (6.722506)]; Best score: 4.369240
+Tournament [2 (6.829298) and 6 (6.884920)]; Best score: 4.369240
+Tournament [0 (8.145943) and 18 (6.810318)]; Best score: 4.369240
+Tournament [38 (7.776550) and 5 (6.371005)]; Best score: 4.369240
+Tournament [45 (6.744311) and 34 (8.572176)]; Best score: 4.369240
+Tournament [34 (8.140254) and 17 (6.958147)]; Best score: 4.369240
+Tournament [28 (7.415468) and 11 (9.804601)]; Best score: 4.369240
+Tournament [45 (6.486883) and 6 (14.615851)]; Best score: 4.369240
+Tournament [20 (5.620781) and 18 (6.678959)]; Best score: 4.369240
+Tournament [29 (9.082859) and 46 (7.830956)]; Best score: 4.369240
+Tournament [6 (11.906691) and 1 (7.079097)]; Best score: 4.369240
+Tournament [13 (8.457740) and 41 (5.109227)]; Best score: 4.369240
+Tournament [7 (6.242073) and 9 (6.811875)]; Best score: 4.369240
+Tournament [10 (5.350124) and 27 (8.768954)]; Best score: 4.369240
+Tournament [5 (5.933075) and 34 (7.737178)]; Best score: 4.369240
+Tournament [11 (9.666023) and 33 (5.786319)]; Best score: 4.369240
+Tournament [37 (8.308189) and 43 (7.609511)]; Best score: 4.369240
+Tournament [23 (6.431739) and 24 (6.222957)]; Best score: 4.369240
+Tournament [20 (5.871742) and 10 (5.505829)]; Best score: 4.369240
+Tournament [15 (8.877101) and 2 (6.679453)]; Best score: 4.369240
+Tournament [44 (6.340880) and 46 (6.850728)]; Best score: 4.369240
+Tournament [24 (6.087459) and 29 (9.134058)]; Best score: 4.369240
+Tournament [37 (8.455037) and 31 (7.870213)]; Best score: 4.369240
+Tournament [24 (5.696303) and 39 (6.555651)]; Best score: 4.369240
+Tournament [26 (11.086237) and 12 (7.804336)]; Best score: 4.369240
+Tournament [42 (13.141897) and 12 (7.920703)]; Best score: 4.369240
+Tournament [37 (8.793853) and 28 (7.484319)]; Best score: 4.369240
+Tournament [15 (6.706344) and 2 (5.793736)]; Best score: 4.369240
+Tournament [35 (5.547455) and 1 (7.127568)]; Best score: 4.369240
+Tournament [25 (9.021660) and 13 (8.596305)]; Best score: 4.369240
+Tournament [9 (8.117534) and 18 (7.033276)]; Best score: 4.369240
+Tournament [8 (7.838728) and 19 (7.646044)]; Best score: 4.369240
+Tournament [4 (7.259157) and 9 (6.104452)]; Best score: 4.369240
+Tournament [48 (6.641227) and 41 (4.392593)]; Best score: 4.369240
+Tournament [46 (6.846487) and 30 (8.257828)]; Best score: 4.369240
+Tournament [28 (7.594826) and 0 (7.615534)]; Best score: 4.369240
+Tournament [12 (7.092331) and 19 (7.751886)]; Best score: 4.369240
+Tournament [32 (8.612820) and 2 (5.668277)]; Best score: 4.369240
+Tournament [9 (6.425508) and 8 (7.392917)]; Best score: 4.369240
+Tournament [7 (5.593443) and 29 (8.386161)]; Best score: 4.369240
+Tournament [42 (12.470095) and 4 (8.101315)]; Best score: 4.369240
+Tournament [10 (5.689978) and 24 (6.136337)]; Best score: 4.369240
+Tournament [49 (6.113571) and 6 (7.442047)]; Best score: 4.369240
+Tournament [19 (7.955865) and 39 (6.186498)]; Best score: 4.369240
+Tournament [35 (5.485694) and 44 (6.561608)]; Best score: 4.369240
+Tournament [29 (9.382175) and 7 (5.766454)]; Best score: 4.369240
+Tournament [20 (5.827147) and 45 (6.743914)]; Best score: 4.369240
+Tournament [22 (10.013670) and 24 (5.721935)]; Best score: 4.369240
+Tournament [25 (8.606264) and 1 (6.765825)]; Best score: 4.369240
+Tournament [49 (5.778920) and 40 (5.905268)]; Best score: 4.369240
+Tournament [6 (7.446613) and 6 (7.446613)]; Best score: 4.369240
+Tournament [46 (7.483166) and 41 (5.308749)]; Best score: 4.369240
+Tournament [5 (5.840324) and 28 (7.387704)]; Best score: 4.369240
+Tournament [14 (7.287297) and 11 (9.263415)]; Best score: 4.369240
+Tournament [38 (7.836180) and 26 (9.033553)]; Best score: 4.369240
+Tournament [27 (8.915753) and 27 (8.915753)]; Best score: 4.369240
+Tournament [8 (9.429992) and 16 (7.523962)]; Best score: 4.369240
+Tournament [11 (9.780322) and 28 (7.461470)]; Best score: 4.369240
+Tournament [23 (5.680556) and 26 (8.180673)]; Best score: 4.369240
+Tournament [34 (9.022596) and 38 (8.055296)]; Best score: 4.369240
+Tournament [15 (5.886539) and 31 (7.844134)]; Best score: 4.369240
+Tournament [2 (6.780282) and 41 (5.105301)]; Best score: 4.369240
+Tournament [4 (7.278714) and 36 (5.924152)]; Best score: 4.369240
+Tournament [44 (6.524770) and 19 (7.818092)]; Best score: 4.369240
+Tournament [32 (7.986547) and 27 (8.444343)]; Best score: 4.369240
+Tournament [4 (7.699452) and 39 (6.037546)]; Best score: 4.369240
+Tournament [39 (5.448462) and 21 (5.158335)]; Best score: 4.369240
+Tournament [34 (8.191117) and 1 (6.905005)]; Best score: 4.369240
+Tournament [45 (6.574927) and 10 (5.602602)]; Best score: 4.369240
+Tournament [36 (5.687157) and 7 (6.166772)]; Best score: 4.369240
+Tournament [24 (5.686101) and 12 (6.983732)]; Best score: 4.369240
+Tournament [46 (7.115015) and 47 (6.394145)]; Best score: 4.369240
+Tournament [40 (5.816371) and 21 (5.252352)]; Best score: 4.369240
+Tournament [49 (5.848624) and 39 (5.729288)]; Best score: 4.369240
+Tournament [16 (7.720689) and 36 (5.947276)]; Best score: 4.369240
+Tournament [24 (5.266830) and 0 (8.040397)]; Best score: 4.369240
+Tournament [2 (5.995592) and 28 (8.003101)]; Best score: 4.369240
+Tournament [15 (5.570923) and 26 (8.356140)]; Best score: 4.369240
+Tournament [10 (5.630934) and 4 (7.038037)]; Best score: 4.369240
+Tournament [7 (6.503038) and 2 (5.432750)]; Best score: 4.369240
+Tournament [13 (8.867281) and 12 (6.408551)]; Best score: 4.369240
+Tournament [7 (6.184125) and 1 (7.123349)]; Best score: 4.369240
+Tournament [24 (5.471335) and 49 (5.585214)]; Best score: 4.369240
+Tournament [46 (6.806595) and 11 (9.243615)]; Best score: 4.369240
+Tournament [0 (5.401970) and 11 (9.552665)]; Best score: 4.369240
+Tournament [39 (5.546464) and 1 (6.938061)]; Best score: 4.369240
+Tournament [8 (8.048490) and 18 (6.366502)]; Best score: 4.369240
+Tournament [38 (7.342329) and 7 (6.369169)]; Best score: 4.369240
+Tournament [29 (8.224555) and 22 (9.324075)]; Best score: 4.369240
+Tournament [42 (12.757876) and 20 (5.085250)]; Best score: 4.369240
+Tournament [40 (6.203063) and 29 (7.777681)]; Best score: 4.369240
+Tournament [28 (7.912167) and 41 (5.252785)]; Best score: 4.369240
+Tournament [11 (9.282030) and 36 (5.590028)]; Best score: 4.369240
+Tournament [19 (7.752742) and 43 (7.635429)]; Best score: 4.369240
+Tournament [20 (4.923353) and 41 (5.094006)]; Best score: 4.369240
+Tournament [30 (8.224962) and 42 (12.733726)]; Best score: 4.369240
+Tournament [40 (5.805348) and 33 (6.754978)]; Best score: 4.369240
+Tournament [29 (8.345217) and 1 (7.029484)]; Best score: 4.369240
+Tournament [39 (5.712631) and 16 (7.712699)]; Best score: 4.369240
+Tournament [47 (6.368706) and 3 (6.569331)]; Best score: 4.369240
+Tournament [42 (15.736143) and 1 (6.602279)]; Best score: 4.369240
+Tournament [0 (5.029671) and 3 (6.265340)]; Best score: 4.369240
+Tournament [33 (8.175512) and 31 (7.401254)]; Best score: 4.369240
+Tournament [25 (8.050830) and 35 (5.384433)]; Best score: 4.369240
+Tournament [38 (7.159652) and 41 (5.753532)]; Best score: 4.369240
+Tournament [31 (7.782097) and 21 (5.357620)]; Best score: 4.369240
+Tournament [42 (16.884713) and 6 (14.038350)]; Best score: 4.369240
+Tournament [37 (8.448096) and 37 (8.448096)]; Best score: 4.369240
+Tournament [22 (9.763585) and 32 (7.667008)]; Best score: 4.369240
+Tournament [42 (15.720154) and 1 (6.909501)]; Best score: 4.369240
+Tournament [5 (6.052771) and 13 (8.671944)]; Best score: 4.369240
+Tournament [29 (6.981005) and 12 (5.535141)]; Best score: 4.369240
+Tournament [20 (4.995849) and 46 (7.124096)]; Best score: 4.369240
+Tournament [37 (8.937203) and 25 (7.359314)]; Best score: 4.369240
+Tournament [35 (8.808499) and 37 (5.393974)]; Best score: 4.369240
+Tournament [19 (7.912511) and 32 (8.039277)]; Best score: 4.369240
+Tournament [0 (5.271558) and 0 (5.271558)]; Best score: 4.369240
+Tournament [40 (6.078822) and 1 (6.691756)]; Best score: 4.369240
+Tournament [4 (7.086442) and 8 (7.852873)]; Best score: 4.369240
+Tournament [29 (6.583596) and 36 (5.313657)]; Best score: 4.369240
+Tournament [24 (5.942489) and 4 (6.762672)]; Best score: 4.369240
+Tournament [27 (8.383478) and 45 (6.652577)]; Best score: 4.369240
+Tournament [45 (6.480852) and 20 (4.810907)]; Best score: 4.369240
+Tournament [16 (7.367744) and 37 (6.586359)]; Best score: 4.369240
+Tournament [35 (7.810554) and 11 (9.401695)]; Best score: 4.369240
+Tournament [37 (5.784286) and 24 (5.827432)]; Best score: 4.369240
+Tournament [22 (9.790554) and 31 (7.858289)]; Best score: 4.369240
+Tournament [17 (7.261950) and 48 (6.825694)]; Best score: 4.369240
+Tournament [22 (9.388509) and 16 (7.457475)]; Best score: 4.369240
+Tournament [37 (5.941052) and 15 (5.637308)]; Best score: 4.369240
+Tournament [34 (8.305675) and 10 (5.569773)]; Best score: 4.369240
+Tournament [43 (7.667604) and 12 (5.042556)]; Best score: 4.369240
+Tournament [22 (9.164180) and 8 (9.576229)]; Best score: 4.369240
+Tournament [26 (5.946697) and 14 (7.165545)]; Best score: 4.369240
+Tournament [21 (4.931353) and 27 (7.828137)]; Best score: 4.369240
+Tournament [33 (6.588403) and 28 (6.776237)]; Best score: 4.369240
+Tournament [22 (8.687550) and 27 (7.715183)]; Best score: 4.369240
+Tournament [21 (5.095660) and 14 (6.348653)]; Best score: 4.369240
+Tournament [17 (7.044868) and 45 (5.393492)]; Best score: 4.369240
+Tournament [10 (5.141178) and 44 (7.127554)]; Best score: 4.369240
+Tournament [44 (6.885389) and 41 (5.715077)]; Best score: 4.369240
+Tournament [0 (5.135118) and 38 (7.139556)]; Best score: 4.369240
+Tournament [28 (5.469248) and 5 (6.073183)]; Best score: 4.369240
+Tournament [44 (6.452691) and 10 (5.015863)]; Best score: 4.369240
+Tournament [43 (7.475272) and 36 (5.548281)]; Best score: 4.369240
+Tournament [33 (6.230362) and 49 (5.475748)]; Best score: 4.369240
+Tournament [31 (7.891517) and 35 (7.234137)]; Best score: 4.369240
+Tournament [2 (5.411285) and 4 (8.628037)]; Best score: 4.369240
+Tournament [33 (5.797895) and 16 (7.086010)]; Best score: 4.369240
+Tournament [1 (6.502861) and 41 (4.811940)]; Best score: 4.369240
+Tournament [17 (7.419012) and 8 (10.441136)]; Best score: 4.369240
+Tournament [15 (5.291610) and 20 (4.836338)]; Best score: 4.369240
+Tournament [22 (8.199026) and 12 (5.380691)]; Best score: 4.369240
+Tournament [10 (5.378304) and 44 (6.875530)]; Best score: 4.369240
+Tournament [18 (6.338928) and 42 (15.327648)]; Best score: 4.369240
+Tournament [47 (6.418659) and 41 (5.039000)]; Best score: 4.369240
+Tournament [10 (5.229733) and 8 (11.798068)]; Best score: 4.369240
+Tournament [12 (5.362630) and 32 (8.239191)]; Best score: 4.369240
+Tournament [1 (4.979672) and 12 (5.533140)]; Best score: 4.369240
+Tournament [44 (6.141797) and 49 (5.327824)]; Best score: 4.369240
+Tournament [8 (9.042950) and 3 (6.564444)]; Best score: 4.369240
+Tournament [9 (6.233976) and 40 (5.787244)]; Best score: 4.369240
+Tournament [38 (7.663156) and 5 (5.733717)]; Best score: 4.369240
+Tournament [44 (5.782176) and 3 (7.107141)]; Best score: 4.369240
+Tournament [3 (6.310583) and 8 (7.590119)]; Best score: 4.369240
+Tournament [28 (6.064231) and 25 (5.395235)]; Best score: 4.369240
+Tournament [9 (6.058275) and 0 (5.680004)]; Best score: 4.369240
+Tournament [49 (5.363510) and 28 (6.709408)]; Best score: 4.369240
+Tournament [23 (6.660416) and 34 (8.102983)]; Best score: 4.369240
+Tournament [18 (6.207517) and 30 (8.152040)]; Best score: 4.369240
+Tournament [23 (5.214195) and 44 (5.175487)]; Best score: 4.369240
+Tournament [7 (6.298739) and 32 (7.791624)]; Best score: 4.369240
+Tournament [30 (8.275895) and 39 (5.276347)]; Best score: 4.369240
+Tournament [30 (8.198921) and 32 (7.833572)]; Best score: 4.369240
+Tournament [37 (5.640725) and 16 (6.237815)]; Best score: 4.369240
+Tournament [30 (8.226351) and 35 (7.079892)]; Best score: 4.369240
+Tournament [23 (5.147091) and 8 (7.667900)]; Best score: 4.369240
+Tournament [30 (6.303074) and 9 (6.234143)]; Best score: 4.369240
+Tournament [47 (6.604896) and 25 (5.544248)]; Best score: 4.369240
+Tournament [38 (7.694847) and 31 (8.224866)]; Best score: 4.369240
+Tournament [26 (11.784817) and 35 (7.376244)]; Best score: 4.369240
+Tournament [16 (5.924595) and 26 (15.280723)]; Best score: 4.369240
+Tournament [13 (8.733175) and 25 (5.410767)]; Best score: 4.369240
+Tournament [20 (6.055033) and 17 (7.882676)]; Best score: 4.369240
+Tournament [1 (4.453220) and 10 (5.182753)]; Best score: 4.369240
+Tournament [6 (14.601864) and 16 (5.440770)]; Best score: 4.369240
+Tournament [27 (7.761466) and 38 (7.221845)]; Best score: 4.369240
+Tournament [47 (6.658323) and 25 (5.907138)]; Best score: 4.369240
+Tournament [0 (5.026666) and 46 (6.513594)]; Best score: 4.369240
+Tournament [27 (7.273870) and 13 (8.728939)]; Best score: 4.369240
+Tournament [44 (6.549455) and 14 (5.142721)]; Best score: 4.369240
+Tournament [10 (5.202442) and 13 (7.676493)]; Best score: 4.369240
+Tournament [13 (7.828130) and 7 (6.103029)]; Best score: 4.369240
+Tournament [11 (9.853699) and 15 (5.336977)]; Best score: 4.369240
+Tournament [23 (4.872967) and 6 (15.482943)]; Best score: 4.369240
+Tournament [42 (16.379974) and 34 (8.249135)]; Best score: 4.369240
+Tournament [48 (6.505480) and 27 (7.543806)]; Best score: 4.369240
+Tournament [31 (7.907927) and 40 (6.203033)]; Best score: 4.369240
+Tournament [6 (9.639865) and 27 (7.552242)]; Best score: 4.369240
+Tournament [47 (6.142218) and 3 (5.627739)]; Best score: 4.369240
+Tournament [7 (6.124502) and 3 (5.891374)]; Best score: 4.369240
+Tournament [10 (4.986926) and 24 (5.722803)]; Best score: 4.369240
+Tournament [49 (5.078651) and 35 (6.950164)]; Best score: 4.369240
+Tournament [24 (5.565118) and 4 (6.505322)]; Best score: 4.369240
+Tournament [6 (9.183618) and 31 (7.783269)]; Best score: 4.369240
+Tournament [12 (5.080973) and 17 (7.247621)]; Best score: 4.369240
+Tournament [28 (6.171586) and 20 (5.415725)]; Best score: 4.369240
+Tournament [45 (4.517027) and 21 (5.014025)]; Best score: 4.369240
+Tournament [0 (5.403878) and 35 (6.676939)]; Best score: 4.369240
+Tournament [39 (5.609554) and 37 (6.185208)]; Best score: 4.369240
+Tournament [2 (5.368198) and 11 (8.705606)]; Best score: 4.369240
+Tournament [34 (8.341802) and 38 (7.047708)]; Best score: 4.369240
+Tournament [45 (4.565067) and 6 (10.355035)]; Best score: 4.369240
+Tournament [8 (8.169261) and 38 (6.991286)]; Best score: 4.369240
+Tournament [15 (5.467570) and 8 (8.592956)]; Best score: 4.369240
+Tournament [1 (4.223642) and 37 (7.259192)]; Best score: 4.223642
+Tournament [26 (18.578599) and 43 (7.644654)]; Best score: 4.223642
+Tournament [41 (4.727256) and 1 (4.201316)]; Best score: 4.201316
+Tournament [38 (6.949504) and 16 (6.519543)]; Best score: 4.201316
+Tournament [30 (5.869168) and 30 (5.869168)]; Best score: 4.201316
+Tournament [49 (5.017037) and 43 (8.029284)]; Best score: 4.201316
+Tournament [1 (4.102481) and 29 (6.507033)]; Best score: 4.102481
+Tournament [46 (6.901678) and 37 (6.933300)]; Best score: 4.102481
+Tournament [9 (6.217022) and 30 (5.833737)]; Best score: 4.102481
+Tournament [41 (4.923940) and 44 (5.832550)]; Best score: 4.102481
+Tournament [26 (22.337453) and 2 (4.933066)]; Best score: 4.102481
+Tournament [11 (9.606004) and 22 (8.398349)]; Best score: 4.102481
+Tournament [48 (6.720008) and 49 (5.394197)]; Best score: 4.102481
+Tournament [21 (4.954355) and 29 (6.289228)]; Best score: 4.102481
+Tournament [2 (5.524832) and 14 (5.107521)]; Best score: 4.102481
+Tournament [42 (17.001893) and 15 (5.303962)]; Best score: 4.102481
+Tournament [4 (5.534567) and 11 (9.109772)]; Best score: 4.102481
+Tournament [9 (5.697213) and 30 (5.469462)]; Best score: 4.102481
+Tournament [45 (4.911070) and 17 (7.110968)]; Best score: 4.102481
+Tournament [2 (5.307893) and 19 (7.883521)]; Best score: 4.102481
+Tournament [48 (6.049743) and 8 (7.395429)]; Best score: 4.102481
+Tournament [40 (5.748038) and 25 (5.416885)]; Best score: 4.102481
+Tournament [10 (5.238179) and 7 (5.807367)]; Best score: 4.102481
+Tournament [12 (5.451322) and 8 (6.353923)]; Best score: 4.102481
+Tournament [8 (6.052446) and 12 (5.465625)]; Best score: 4.102481
+Tournament [38 (7.203174) and 17 (6.845119)]; Best score: 4.102481
+Tournament [2 (5.537732) and 49 (5.083940)]; Best score: 4.102481
+Tournament [42 (16.544106) and 42 (16.544106)]; Best score: 4.102481
+Tournament [12 (5.455444) and 16 (5.729839)]; Best score: 4.102481
+Tournament [38 (7.185188) and 28 (6.772004)]; Best score: 4.102481
+Tournament [21 (5.780143) and 9 (5.743837)]; Best score: 4.102481
+Tournament [14 (5.059935) and 16 (5.749852)]; Best score: 4.102481
+Tournament [3 (6.457055) and 31 (7.564464)]; Best score: 4.102481
+Tournament [43 (9.791119) and 48 (5.816221)]; Best score: 4.102481
+Tournament [2 (5.137117) and 12 (5.451896)]; Best score: 4.102481
+Tournament [26 (26.317782) and 27 (8.314917)]; Best score: 4.102481
+Tournament [24 (5.594140) and 36 (4.793600)]; Best score: 4.102481
+Tournament [10 (4.923050) and 31 (7.417542)]; Best score: 4.102481
+Tournament [48 (6.421217) and 29 (5.777329)]; Best score: 4.102481
+Tournament [22 (8.461206) and 32 (8.007525)]; Best score: 4.102481
+Tournament [11 (9.231770) and 43 (8.409527)]; Best score: 4.102481
+Tournament [49 (5.091241) and 8 (5.631770)]; Best score: 4.102481
+Tournament [25 (5.547330) and 6 (10.755107)]; Best score: 4.102481
+Tournament [16 (9.630479) and 5 (10.076367)]; Best score: 4.102481
+Tournament [44 (5.878173) and 42 (16.221228)]; Best score: 4.102481
+Tournament [36 (4.819599) and 28 (5.982372)]; Best score: 4.102481
+Tournament [7 (6.157057) and 20 (5.050235)]; Best score: 4.102481
+Tournament [28 (5.724661) and 4 (6.086260)]; Best score: 4.102481
+Tournament [42 (16.322344) and 19 (4.967029)]; Best score: 4.102481
+Tournament [9 (5.871689) and 39 (5.188627)]; Best score: 4.102481
+Tournament [48 (6.184860) and 39 (6.153214)]; Best score: 4.102481
+Tournament [38 (7.479359) and 7 (5.923488)]; Best score: 4.102481
+Tournament [49 (5.151461) and 17 (6.918799)]; Best score: 4.102481
+Tournament [11 (9.686388) and 39 (8.104864)]; Best score: 4.102481
+Tournament [23 (4.747546) and 24 (5.840974)]; Best score: 4.102481
+Tournament [18 (6.036074) and 42 (15.439678)]; Best score: 4.102481
+Tournament [34 (8.468917) and 48 (6.281209)]; Best score: 4.102481
+Tournament [29 (5.308679) and 37 (7.050567)]; Best score: 4.102481
+Tournament [49 (5.137598) and 17 (7.165413)]; Best score: 4.102481
+Tournament [40 (5.329050) and 43 (45.352312)]; Best score: 4.102481
+Tournament [27 (8.569061) and 8 (4.542311)]; Best score: 4.102481
+Tournament [26 (29.704290) and 8 (19.090924)]; Best score: 4.102481
+Tournament [8 (27.325852) and 3 (5.873886)]; Best score: 4.102481
+Tournament [10 (4.880378) and 47 (6.062967)]; Best score: 4.102481
+Tournament [43 (38.504709) and 22 (7.381599)]; Best score: 4.102481
+Tournament [45 (4.944179) and 35 (6.148595)]; Best score: 4.102481
+Tournament [15 (4.989958) and 6 (9.116740)]; Best score: 4.102481
+Tournament [38 (7.163553) and 23 (4.875147)]; Best score: 4.102481
+Tournament [8 (28.347792) and 14 (4.438786)]; Best score: 4.102481
+Tournament [35 (6.332903) and 41 (4.883504)]; Best score: 4.102481
+Tournament [6 (9.401101) and 44 (5.725740)]; Best score: 4.102481
+Tournament [39 (9.416115) and 3 (6.781420)]; Best score: 4.102481
+Tournament [49 (5.564546) and 13 (7.752632)]; Best score: 4.102481
+Tournament [15 (5.065368) and 22 (7.991533)]; Best score: 4.102481
+Tournament [38 (6.474814) and 2 (5.411656)]; Best score: 4.102481
+Tournament [9 (5.740595) and 30 (5.142395)]; Best score: 4.102481
+Tournament [11 (9.917078) and 1 (4.153373)]; Best score: 4.102481
+Tournament [27 (8.653823) and 34 (8.437597)]; Best score: 4.102481
+Tournament [19 (5.003696) and 9 (5.590102)]; Best score: 4.102481
+Tournament [7 (5.671562) and 14 (4.288463)]; Best score: 4.102481
+Tournament [28 (4.752792) and 33 (5.756377)]; Best score: 4.102481
+Tournament [11 (9.393109) and 27 (8.428491)]; Best score: 4.102481
+Tournament [25 (6.369845) and 38 (6.500324)]; Best score: 4.102481
+Tournament [32 (7.580883) and 43 (25.689406)]; Best score: 4.102481
+Tournament [16 (8.435350) and 28 (5.469095)]; Best score: 4.102481
+Tournament [45 (4.891571) and 22 (8.067891)]; Best score: 4.102481
+Tournament [47 (5.944999) and 21 (6.166444)]; Best score: 4.102481
+Tournament [45 (4.429319) and 10 (4.685726)]; Best score: 4.102481
+Tournament [35 (5.789434) and 25 (5.498077)]; Best score: 4.102481
+Tournament [45 (4.512289) and 41 (4.924703)]; Best score: 4.102481
+Tournament [41 (4.818043) and 24 (5.688874)]; Best score: 4.102481
+Tournament [39 (8.300784) and 24 (5.360619)]; Best score: 4.102481
+Tournament [23 (7.718139) and 23 (7.718139)]; Best score: 4.102481
+Tournament [42 (12.927861) and 8 (29.194272)]; Best score: 4.102481
+Tournament [41 (4.868888) and 17 (6.992060)]; Best score: 4.102481
+Tournament [1 (4.461425) and 10 (4.873586)]; Best score: 4.102481
+Tournament [11 (9.152507) and 36 (4.692711)]; Best score: 4.102481
+Tournament [39 (7.206124) and 10 (6.873150)]; Best score: 4.102481
+Tournament [17 (7.173617) and 23 (7.822215)]; Best score: 4.102481
+Tournament [3 (7.800521) and 17 (5.887496)]; Best score: 4.102481
+Tournament [10 (22.456567) and 29 (5.118203)]; Best score: 4.102481
+Tournament [1 (3.968197) and 6 (10.986277)]; Best score: 3.968197
+Tournament [19 (5.225779) and 28 (6.307748)]; Best score: 3.968197
+Tournament [3 (7.078633) and 39 (6.683422)]; Best score: 3.968197
+Tournament [48 (6.219926) and 36 (5.018642)]; Best score: 3.968197
+Tournament [35 (5.849511) and 31 (7.188705)]; Best score: 3.968197
+Tournament [28 (11.225125) and 8 (30.860639)]; Best score: 3.968197
+Tournament [11 (9.538211) and 31 (7.304752)]; Best score: 3.968197
+Tournament [29 (5.044532) and 43 (17.230695)]; Best score: 3.968197
+Tournament [12 (5.497584) and 39 (6.825519)]; Best score: 3.968197
+Tournament [31 (6.900640) and 44 (5.713317)]; Best score: 3.968197
+Tournament [38 (6.836350) and 3 (7.542918)]; Best score: 3.968197
+Tournament [18 (6.057955) and 34 (7.937412)]; Best score: 3.968197
+Tournament [35 (6.038094) and 43 (14.794317)]; Best score: 3.968197
+Tournament [21 (6.407085) and 39 (6.458356)]; Best score: 3.968197
+Tournament [32 (8.045737) and 34 (8.365660)]; Best score: 3.968197
+Tournament [43 (23.856049) and 34 (8.152304)]; Best score: 3.968197
+Tournament [28 (10.872114) and 41 (5.054664)]; Best score: 3.968197
+Tournament [49 (5.280987) and 34 (8.294185)]; Best score: 3.968197
+Tournament [16 (5.326826) and 4 (5.828256)]; Best score: 3.968197
+Tournament [13 (8.502525) and 10 (29.212689)]; Best score: 3.968197
+Tournament [12 (5.282928) and 7 (5.981568)]; Best score: 3.968197
+Tournament [33 (5.701108) and 4 (6.122262)]; Best score: 3.968197
+Tournament [42 (11.560735) and 36 (4.923896)]; Best score: 3.968197
+Tournament [39 (6.717702) and 5 (11.681935)]; Best score: 3.968197
+Tournament [22 (8.280241) and 6 (9.659393)]; Best score: 3.968197
+Tournament [33 (5.727071) and 23 (6.791686)]; Best score: 3.968197
+Tournament [9 (6.010735) and 8 (35.219194)]; Best score: 3.968197
+Tournament [43 (21.392456) and 41 (5.198186)]; Best score: 3.968197
+Tournament [19 (5.063400) and 46 (7.072790)]; Best score: 3.968197
+Tournament [16 (4.462200) and 2 (5.122939)]; Best score: 3.968197
+Tournament [26 (32.087788) and 17 (6.702264)]; Best score: 3.968197
+Tournament [25 (6.241749) and 46 (6.619123)]; Best score: 3.968197
+Tournament [34 (8.351609) and 2 (7.899340)]; Best score: 3.968197
+Tournament [43 (18.898454) and 21 (5.063195)]; Best score: 3.968197
+Tournament [47 (5.976755) and 46 (6.698357)]; Best score: 3.968197
+Tournament [34 (8.213075) and 32 (8.096861)]; Best score: 3.968197
+Tournament [28 (10.153817) and 23 (5.852136)]; Best score: 3.968197
+Tournament [39 (6.824514) and 20 (4.720277)]; Best score: 3.968197
+Tournament [35 (6.200670) and 30 (5.527018)]; Best score: 3.968197
+Tournament [2 (10.162338) and 38 (6.387941)]; Best score: 3.968197
+Tournament [20 (4.995484) and 14 (4.172302)]; Best score: 3.968197
+Tournament [33 (5.459638) and 38 (6.838352)]; Best score: 3.968197
+Tournament [44 (5.449036) and 37 (7.226773)]; Best score: 3.968197
+Tournament [7 (5.411443) and 2 (11.522910)]; Best score: 3.968197
+Genome(1):
+ input(  0, identity) --( 1.8128 )--> hidden(  7, gaussian)
+ input(  1, identity) --( 0.4652 )--> hidden(  7, gaussian)
+ input(  2, identity) --( 1.4107 )--> hidden(  7, gaussian)
+ input(  3, identity) --( -3.243 )--> hidden(  7, gaussian)
+hidden(  7, gaussian) --( -3.202 )--> output(  4,  sigmoid)
+hidden(  7, gaussian) --( -0.482 )--> output(  5,  sigmoid)
+hidden(  7, gaussian) --( -0.097 )--> hidden( 18,  sigmoid)
+ input(  0, identity) --( 0.0238 )--> hidden(  8, gaussian)
+ input(  1, identity) --( 2.5580 )--> hidden(  8, gaussian)
+ input(  2, identity) --( -0.311 )--> hidden(  8, gaussian)
+ input(  3, identity) --( 0.7728 )--> hidden(  8, gaussian)
+hidden(  8, gaussian) --( 1.8898 )--> output(  4,  sigmoid)
+hidden(  8, gaussian) --( 0.5049 )--> output(  5,  sigmoid)
+hidden(  8, gaussian) --( 0.4200 )--> output(  6,  sigmoid)
+ input(  0, identity) --( -3.619 )--> hidden(  9,     tanh)
+ input(  1, identity) --( 1.3959 )--> hidden(  9,     tanh)
+ input(  2, identity) --( 1.3851 )--> hidden(  9,     tanh)
+ input(  3, identity) --( -1.462 )--> hidden(  9,     tanh)
+hidden(  9,     tanh) --( 0.5333 )--> output(  4,  sigmoid)
+hidden(  9,     tanh) --( 0.2265 )--> output(  5,  sigmoid)
+hidden(  9,     tanh) --( 0.0890 )--> output(  6,  sigmoid)
+ input(  0, identity) --( 5.7130 )--> hidden( 10,     sine)
+ input(  1, identity) --( -1.583 )--> hidden( 10,     sine)
+ input(  2, identity) --( -2.238 )--> hidden( 10,     sine)
+ input(  3, identity) --( -0.097 )--> hidden( 10,     sine)
+hidden( 10,     sine) --( -0.156 )--> output(  4,  sigmoid)
+hidden( 10,     sine) --( 0.0244 )--> output(  5,  sigmoid)
+hidden( 10,     sine) --( -0.017 )--> output(  6,  sigmoid)
+ input(  0, identity) --( -0.689 )--> hidden( 11,     tanh)
+ input(  1, identity) --( 0.9387 )--> hidden( 11,     tanh)
+ input(  2, identity) --( 3.5817 )--> hidden( 11,     tanh)
+ input(  3, identity) --( -0.821 )--> hidden( 11,     tanh)
+hidden( 11,     tanh) --( 0.0670 )--> output(  4,  sigmoid)
+hidden( 11,     tanh) --( 0.6468 )--> output(  5,  sigmoid)
+hidden( 11,     tanh) --( 0.5021 )--> output(  6,  sigmoid)
+ input(  0, identity) --( 0.2674 )--> hidden( 12,     tanh)
+ input(  1, identity) --( 0.6435 )--> hidden( 17, gaussian)
+ input(  2, identity) --( 2.8343 )--> hidden( 12,     tanh)
+ input(  3, identity) --( 3.3365 )--> hidden( 15, identity)
+hidden( 12,     tanh) --( -0.368 )--> output(  4,  sigmoid)
+hidden( 12,     tanh) --( 0.0622 )--> output(  5,  sigmoid)
+hidden( 12,     tanh) --( 0.1530 )--> output(  6,  sigmoid)
+ input(  0, identity) --( -0.967 )--> hidden( 13,     tanh)
+ input(  1, identity) --( 2.4442 )--> hidden( 13,     tanh)
+ input(  2, identity) --( 3.8014 )--> hidden( 13,     tanh)
+ input(  3, identity) --( 0.6248 )--> hidden( 13,     tanh)
+hidden( 13,     tanh) --( 0.7248 )--> output(  4,  sigmoid)
+hidden( 13,     tanh) --( -0.291 )--> output(  5,  sigmoid)
+hidden( 13,     tanh) --( 0.5737 )--> hidden( 16, gaussian)
+ input(  0, identity) --( 2.3151 )--> hidden( 14,  sigmoid)
+ input(  1, identity) --( -5.390 )--> hidden( 14,  sigmoid)
+ input(  2, identity) --( -4.612 )--> hidden( 14,  sigmoid)
+ input(  3, identity) --( -0.379 )--> hidden( 14,  sigmoid)
+hidden( 14,  sigmoid) --( -0.197 )--> output(  4,  sigmoid)
+hidden( 14,  sigmoid) --( -0.034 )--> output(  5,  sigmoid)
+hidden( 14,  sigmoid) --( -0.055 )--> output(  6,  sigmoid)
+hidden( 15, identity) --( -0.888 )--> hidden( 12,     tanh)
+hidden( 16, gaussian) --( 0.0515 )--> output(  6,  sigmoid)
+hidden( 17, gaussian) --( 1.0104 )--> hidden( 12,     tanh)
+hidden( 16, gaussian) --( -1.568 )--> hidden( 14,  sigmoid)
+hidden( 13,     tanh) --( -0.465 )--> hidden(  9,     tanh)
+hidden( 18,  sigmoid) --( -0.534 )--> output(  6,  sigmoid)
+ input(  0, identity) --( 0.1120 )--> hidden( 19,     tanh)
+ input(  1, identity) --( 0.1287 )--> hidden( 19,     tanh)
+ input(  2, identity) --( 0.9914 )--> hidden( 19,     tanh)
+ input(  3, identity) --( -3.457 )--> hidden( 19,     tanh)
+hidden( 19,     tanh) --( 1.1425 )--> output(  4,  sigmoid)
+hidden( 19,     tanh) --( 0.3134 )--> output(  5,  sigmoid)
+hidden( 19,     tanh) --( 0.2350 )--> output(  6,  sigmoid)
+ input(  0, identity) --( -0.654 )--> hidden( 20,     tanh)
+ input(  1, identity) --( 2.5734 )--> hidden( 20,     tanh)
+ input(  2, identity) --( 0.1091 )--> hidden( 24, identity)
+ input(  3, identity) --( -0.309 )--> hidden( 23,     sine)
+hidden( 20,     tanh) --( 0.2684 )--> output(  4,  sigmoid)
+hidden( 20,     tanh) --( 0.1964 )--> output(  5,  sigmoid)
+hidden( 20,     tanh) --( 0.3073 )--> output(  6,  sigmoid)
+ input(  0, identity) --( -2.478 )--> hidden( 21,     tanh)
+ input(  1, identity) --( 4.1979 )--> hidden( 21,     tanh)
+ input(  2, identity) --( -4.897 )--> hidden( 21,     tanh)
+ input(  3, identity) --( -2.514 )--> hidden( 21,     tanh)
+hidden( 21,     tanh) --( -1.834 )--> output(  4,  sigmoid)
+hidden( 21,     tanh) --( -0.843 )--> output(  5,  sigmoid)
+hidden( 21,     tanh) --( -0.728 )--> output(  6,  sigmoid)
+ input(  0, identity) --( 0.0027 )--> hidden( 22,     tanh)
+ input(  1, identity) --( 8.6703 )--> hidden( 22,     tanh)
+ input(  2, identity) --( -1.169 )--> hidden( 22,     tanh)
+ input(  3, identity) --( -2.026 )--> hidden( 25,     sine)
+hidden( 22,     tanh) --( -0.411 )--> output(  4,  sigmoid)
+hidden( 22,     tanh) --( -0.386 )--> output(  5,  sigmoid)
+hidden( 22,     tanh) --( -0.342 )--> output(  6,  sigmoid)
+hidden( 23,     sine) --( -1.706 )--> hidden( 20,     tanh)
+hidden( 24, identity) --( 1.4554 )--> hidden( 20,     tanh)
+hidden( 25,     sine) --( 1.5928 )--> hidden( 22,     tanh)
+ input(  0, identity) --( -0.641 )--> hidden( 42,     tanh)
+ input(  1, identity) --( -1.043 )--> hidden( 26, gaussian)
+ input(  2, identity) --( -0.704 )--> hidden( 26, gaussian)
+ input(  3, identity) --( -0.025 )--> hidden( 26, gaussian)
+hidden( 26, gaussian) --( 0.7737 )--> output(  4,  sigmoid)
+hidden( 26, gaussian) --( 1.1320 )--> output(  5,  sigmoid)
+hidden( 26, gaussian) --( 0.9424 )--> output(  6,  sigmoid)
+ input(  0, identity) --( -0.517 )--> hidden( 27,  sigmoid)
+ input(  1, identity) --( 0.9249 )--> hidden( 27,  sigmoid)
+ input(  2, identity) --( 1.2628 )--> hidden( 27,  sigmoid)
+ input(  3, identity) --( -2.261 )--> hidden( 27,  sigmoid)
+hidden( 27,  sigmoid) --( 0.7260 )--> output(  4,  sigmoid)
+hidden( 27,  sigmoid) --( -0.010 )--> output(  5,  sigmoid)
+hidden( 27,  sigmoid) --( -0.166 )--> output(  6,  sigmoid)
+ input(  0, identity) --( 1.1457 )--> hidden( 28,     sine)
+ input(  1, identity) --( 0.6451 )--> hidden( 28,     sine)
+ input(  2, identity) --( 1.7865 )--> hidden( 28,     sine)
+ input(  3, identity) --( 0.7859 )--> hidden( 28,     sine)
+hidden( 28,     sine) --( 0.1208 )--> output(  4,  sigmoid)
+hidden( 28,     sine) --( -0.038 )--> output(  5,  sigmoid)
+hidden( 28,     sine) --( -0.112 )--> output(  6,  sigmoid)
+ input(  0, identity) --( -0.004 )--> hidden( 29, identity)
+ input(  1, identity) --( -0.133 )--> hidden( 29, identity)
+ input(  2, identity) --( 1.8584 )--> hidden( 30,  sigmoid)
+ input(  3, identity) --( -1.751 )--> hidden( 29, identity)
+hidden( 29, identity) --( -0.009 )--> output(  4,  sigmoid)
+hidden( 29, identity) --( -0.171 )--> output(  5,  sigmoid)
+hidden( 29, identity) --( 0.1899 )--> output(  6,  sigmoid)
+hidden( 30,  sigmoid) --( 2.0053 )--> hidden( 29, identity)
+ input(  0, identity) --( 0.2085 )--> hidden( 31,     tanh)
+ input(  1, identity) --( -2.145 )--> hidden( 31,     tanh)
+ input(  2, identity) --( -1.373 )--> hidden( 31,     tanh)
+ input(  3, identity) --( -0.760 )--> hidden( 35,     tanh)
+hidden( 31,     tanh) --( 1.7306 )--> output(  4,  sigmoid)
+hidden( 31,     tanh) --( 0.3504 )--> output(  5,  sigmoid)
+hidden( 31,     tanh) --( 0.1492 )--> output(  6,  sigmoid)
+ input(  0, identity) --( -0.495 )--> hidden( 32,     sine)
+ input(  1, identity) --( -2.109 )--> hidden( 32,     sine)
+ input(  2, identity) --( -2.663 )--> hidden( 32,     sine)
+ input(  3, identity) --( 0.4896 )--> hidden( 32,     sine)
+hidden( 32,     sine) --( -0.004 )--> output(  4,  sigmoid)
+hidden( 32,     sine) --( -0.030 )--> output(  5,  sigmoid)
+hidden( 32,     sine) --( -0.064 )--> output(  6,  sigmoid)
+ input(  0, identity) --( 1.6440 )--> hidden( 33, gaussian)
+ input(  1, identity) --( 0.5434 )--> hidden( 33, gaussian)
+ input(  2, identity) --( -0.069 )--> hidden( 33, gaussian)
+ input(  3, identity) --( 1.6885 )--> hidden( 33, gaussian)
+hidden( 33, gaussian) --( 1.6393 )--> output(  4,  sigmoid)
+hidden( 33, gaussian) --( -1.204 )--> output(  5,  sigmoid)
+hidden( 33, gaussian) --( 0.1976 )--> output(  6,  sigmoid)
+ input(  0, identity) --( 0.0604 )--> hidden( 34, identity)
+ input(  1, identity) --( -0.284 )--> hidden( 36, gaussian)
+ input(  2, identity) --( -0.883 )--> hidden( 34, identity)
+ input(  3, identity) --( 1.2746 )--> hidden( 34, identity)
+hidden( 34, identity) --( -0.165 )--> output(  4,  sigmoid)
+hidden( 34, identity) --( 0.1505 )--> output(  5,  sigmoid)
+hidden( 34, identity) --( 0.0901 )--> output(  6,  sigmoid)
+hidden( 35,     tanh) --( -4.219 )--> hidden( 31,     tanh)
+hidden( 33, gaussian) --( 0.4806 )--> hidden( 35,     tanh)
+hidden( 36, gaussian) --( -0.307 )--> hidden( 34, identity)
+ input(  0, identity) --( -4.311 )--> hidden( 41,     tanh)
+ input(  1, identity) --( -4.555 )--> hidden( 37,     sine)
+ input(  2, identity) --( -4.593 )--> hidden( 43,     tanh)
+ input(  3, identity) --( -3.192 )--> hidden( 37,     sine)
+hidden( 37,     sine) --( -0.059 )--> output(  4,  sigmoid)
+hidden( 37,     sine) --( -0.028 )--> output(  5,  sigmoid)
+hidden( 37,     sine) --( 0.0268 )--> output(  6,  sigmoid)
+ input(  0, identity) --( 0.0286 )--> hidden( 38, identity)
+ input(  1, identity) --( -0.883 )--> hidden( 38, identity)
+ input(  2, identity) --( -0.724 )--> hidden( 38, identity)
+ input(  3, identity) --( 2.8699 )--> hidden( 38, identity)
+hidden( 38, identity) --( -0.251 )--> output(  4,  sigmoid)
+hidden( 38, identity) --( -0.134 )--> output(  5,  sigmoid)
+hidden( 38, identity) --( -0.053 )--> output(  6,  sigmoid)
+ input(  0, identity) --( 2.3618 )--> hidden( 39,     sine)
+ input(  1, identity) --( -0.192 )--> hidden( 39,     sine)
+ input(  2, identity) --( 1.4422 )--> hidden( 39,     sine)
+ input(  3, identity) --( -0.824 )--> hidden( 39,     sine)
+hidden( 39,     sine) --( 0.5160 )--> output(  4,  sigmoid)
+hidden( 39,     sine) --( -0.045 )--> output(  5,  sigmoid)
+hidden( 39,     sine) --( -0.149 )--> output(  6,  sigmoid)
+ input(  0, identity) --( 0.2620 )--> hidden( 40, identity)
+ input(  1, identity) --( -0.609 )--> hidden( 40, identity)
+ input(  2, identity) --( -0.831 )--> hidden( 40, identity)
+ input(  3, identity) --( 1.6279 )--> hidden( 40, identity)
+hidden( 40, identity) --( -0.206 )--> output(  4,  sigmoid)
+hidden( 40, identity) --( 0.0374 )--> output(  5,  sigmoid)
+hidden( 40, identity) --( -0.065 )--> output(  6,  sigmoid)
+hidden( 41,     tanh) --( -1.184 )--> hidden( 37,     sine)
+hidden( 33, gaussian) --( -0.486 )--> hidden( 40, identity)
+hidden( 42,     tanh) --( 1.1044 )--> hidden( 26, gaussian)
+ input(  3, identity) --( 1.4011 )--> hidden( 36, gaussian)
+hidden( 36, gaussian) --( -0.856 )--> hidden( 37,     sine)
+hidden( 43,     tanh) --( -0.773 )--> hidden( 37,     sine)
+hidden( 34, identity) --( -0.211 )--> hidden( 35,     tanh)
+hidden( 34, identity) --( -0.457 )--> hidden( 32,     sine)
+hidden( 33, gaussian) --( -0.823 )--> hidden( 10,     sine)

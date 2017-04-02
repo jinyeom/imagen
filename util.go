@@ -50,7 +50,9 @@ func randAFuncName() string {
 		"identity",
 		"sigmoid",
 		"tanh",
-		"relu",
+		//"relu",
+		//"elu",
+		//"abs",
 		"sine",
 		"gaussian",
 	}

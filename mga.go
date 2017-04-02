@@ -79,23 +79,13 @@ func (m *MGA) Run(verbose, exportLog bool) float64 {
 		ind1 := randGenome(m.Population)
 		ind2 := randGenome(m.Population)
 
-		// only evaluate the selected individuals if they were losers
-		// in their previous tournament.
-		if !ind1.Winner {
-			ind1.Fitness = m.Evaluation(ind1)
-		}
-		if !ind2.Winner {
-			ind2.Fitness = m.Evaluation(ind2)
-		}
+		ind1.Fitness = m.Evaluation(ind1)
+		ind2.Fitness = m.Evaluation(ind2)
 
 		if m.Comparison(ind1.Fitness, ind2.Fitness) {
 			// if score 1 (ind1) is better than score 2 (ind2),
 			// perform crossover between the two, and update ind2
 			// with the resulting child, and mutate it.
-
-			ind1.Winner = true
-			ind2.Winner = false
-
 			if rand.Float64() < m.Config.CrossoverRate {
 				ind2.Crossover(ind1)
 			}
@@ -108,10 +98,6 @@ func (m *MGA) Run(verbose, exportLog bool) float64 {
 		} else {
 			// otherwise, update ind1 (loser) with the resulting
 			// child, and mutate it.
-
-			ind1.Winner = false
-			ind2.Winner = true
-
 			if rand.Float64() < m.Config.CrossoverRate {
 				ind1.Crossover(ind2)
 			}

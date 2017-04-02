@@ -55,7 +55,7 @@ func help() {
 
 func draw(g *Genome, width, height int) {
 	n, _ := NewDPPN(g, 1)
-	img := image.NewGray(image.Rect(0, 0, width, height))
+	img := image.NewRGBA(image.Rect(0, 0, width, height))
 
 	for y := 0; y < height; y++ {
 		for x := 0; x < width; x++ {
@@ -69,7 +69,8 @@ func draw(g *Genome, width, height int) {
 			outputVec, _ := n.FeedForward(inputVec)
 			outputs := outputVec.RawMatrix().Data
 
-			c := color.Gray{uint8(outputs[0] * 255.0)}
+			c := color.RGBA{uint8(outputs[0] * 255.0), uint8(outputs[1] * 255.0),
+				uint8(outputs[2] * 255.0), 255}
 			img.Set(x, y, c)
 		}
 	}
@@ -85,14 +86,14 @@ func draw(g *Genome, width, height int) {
 
 // genImage returns an evaluation function for fitting the argument image's
 // pixel value distribution.
-func genImage(img *image.Gray, numBatch, numEpochs int,
+func genImage(img *image.RGBA, numBatch, numEpochs int,
 	learningRate float64) EvaluationFunc {
 	width, height := img.Bounds().Max.X-img.Bounds().Min.X,
 		img.Bounds().Max.Y-img.Bounds().Min.Y
 
 	return func(g *Genome) float64 {
 		n, _ := NewDPPN(g, numBatch)
-		avg := 0.0
+		score := 0.0
 
 		for i := 0; i < numEpochs; i++ {
 			// process a random batch of inputs and target outputs
@@ -110,24 +111,25 @@ func genImage(img *image.Gray, numBatch, numEpochs int,
 				inputs = append(inputs, fx*0.1, fy*0.1, d*0.1, 1.0)
 
 				// target
-				c := img.At(x, y).(color.Gray)
-				target = append(target, float64(c.Y)/255.0)
+				c := img.At(x, y).(color.RGBA)
+				target = append(target, float64(c.R)/255.0,
+					float64(c.G)/255.0, float64(c.B)/255.0)
 			}
 
 			inputBatch := mat64.NewDense(numBatch, 4, inputs)
-			targetBatch := mat64.NewDense(numBatch, 1, target)
+			targetBatch := mat64.NewDense(numBatch, 3, target)
 
 			mse, err := n.Backprop(inputBatch, targetBatch, learningRate)
 			if err != nil {
 				panic(err)
 			}
-			avg += mse
+			score += mse
 		}
 
 		// encode the DPPN's learned connection weights back to its genotype.
 		n.Encode(g)
 
-		return avg / float64(numEpochs)
+		return score
 	}
 }
 
@@ -161,7 +163,7 @@ func main() {
 
 	env, err := NewMGA(config,
 		InverseComparison(),
-		genImage(img.(*image.Gray), config.BatchSize,
+		genImage(img.(*image.RGBA), config.BatchSize,
 			config.NumEpochs, config.LearningRate))
 	if err != nil {
 		panic(err)

@@ -66,7 +66,6 @@ type EdgeGene struct {
 	InputNode  *NodeGene // input node
 	OutputNode *NodeGene // output node
 	Weight     float64   // connection weight
-	Disabled   bool      // true if disabled
 }
 
 // NewEdgeGene creates a new edge gene, given pointers to input node gene and
@@ -76,7 +75,6 @@ func NewEdgeGene(inputNode, outputNode *NodeGene) *EdgeGene {
 		InputNode:  inputNode,
 		OutputNode: outputNode,
 		Weight:     randWeight(),
-		Disabled:   false,
 	}
 }
 
@@ -90,7 +88,6 @@ type Genome struct {
 	NodeGenes  []*NodeGene // list of node genes
 	EdgeGenes  []*EdgeGene // list of edge genes
 	Fitness    float64     // fitness score
-	Winner     bool        // won the most recent tournament
 }
 
 // NewGenome creates a new genome, given a genome ID, number of inputs, number
@@ -135,7 +132,6 @@ func NewGenome(id, numInputs, numHidden, numOutputs int) *Genome {
 		NodeGenes:  nodes,
 		EdgeGenes:  edges,
 		Fitness:    0.0,
-		Winner:     false,
 	}
 }
 
@@ -144,15 +140,11 @@ func (g *Genome) ToString() string {
 	str := fmt.Sprintf("Genome(%d):\n", g.ID)
 	for i := 0; i < len(g.EdgeGenes)-1; i++ {
 		var conn string
-		if g.EdgeGenes[i].Disabled {
-			conn = "~~      ~~"
+		weight := g.EdgeGenes[i].Weight
+		if g.EdgeGenes[i].Weight > 0.0 {
+			conn = fmt.Sprintf("( %3.4f )", weight)
 		} else {
-			weight := g.EdgeGenes[i].Weight
-			if g.EdgeGenes[i].Weight > 0.0 {
-				conn = fmt.Sprintf("( %3.4f )", weight)
-			} else {
-				conn = fmt.Sprintf("( %3.3f )", weight)
-			}
+			conn = fmt.Sprintf("( %3.3f )", weight)
 		}
 		str += fmt.Sprintf("%6s(%3d, %8s) --%s--> %6s(%3d, %8s)\n",
 			g.EdgeGenes[i].InputNode.Type,
@@ -166,14 +158,10 @@ func (g *Genome) ToString() string {
 	// for the last edge gene
 	edge := g.EdgeGenes[len(g.EdgeGenes)-1]
 	var conn string
-	if edge.Disabled {
-		conn = "~~      ~~"
+	if edge.Weight > 0.0 {
+		conn = fmt.Sprintf("( %3.4f )", edge.Weight)
 	} else {
-		if edge.Weight > 0.0 {
-			conn = fmt.Sprintf("( %3.4f )", edge.Weight)
-		} else {
-			conn = fmt.Sprintf("( %3.3f )", edge.Weight)
-		}
+		conn = fmt.Sprintf("( %3.3f )", edge.Weight)
 	}
 	str += fmt.Sprintf("%6s(%3d, %8s) --%s--> %6s(%3d, %8s)",
 		edge.InputNode.Type,
@@ -205,13 +193,11 @@ func (g *Genome) Export() error {
 
 	// edge data
 	for _, edge := range g.EdgeGenes {
-		if !edge.Disabled {
-			dat := fmt.Sprintf("e %d %d %f",
-				edge.InputNode.ID, edge.OutputNode.ID, edge.Weight)
-			_, err := f.WriteString(dat + "\n")
-			if err != nil {
-				return err
-			}
+		dat := fmt.Sprintf("e %d %d %f",
+			edge.InputNode.ID, edge.OutputNode.ID, edge.Weight)
+		_, err := f.WriteString(dat + "\n")
+		if err != nil {
+			return err
 		}
 	}
 
@@ -257,15 +243,14 @@ func (g *Genome) Mutate(addNodeRate, addEdgeRate float64) (int, int, int) {
 // of the newly added node.
 func (g *Genome) AddNode() int {
 	newNode := NewNodeGene(len(g.NodeGenes), "hidden", randAFuncName())
-	edgeIndex := rand.Intn(len(g.EdgeGenes))
-	edge := g.EdgeGenes[edgeIndex]
+	edge := g.EdgeGenes[rand.Intn(len(g.EdgeGenes))]
 
 	g.NodeGenes = append(g.NodeGenes, newNode)
 	g.NumHidden++
 
-	g.EdgeGenes[edgeIndex].Disabled = true
-	g.EdgeGenes = append(g.EdgeGenes, NewEdgeGene(edge.InputNode, newNode))
-	g.EdgeGenes = append(g.EdgeGenes, NewEdgeGene(newNode, edge.OutputNode))
+	tempOutput := edge.OutputNode
+	edge.OutputNode = newNode
+	g.EdgeGenes = append(g.EdgeGenes, NewEdgeGene(newNode, tempOutput))
 
 	return newNode.ID
 }
@@ -305,16 +290,16 @@ func (g *Genome) AddEdge() (int, int) {
 // genome with the resulting child.
 func (g *Genome) Crossover(g0 *Genome) error {
 	if g.NumInputs != g0.NumInputs || g.NumOutputs != g0.NumOutputs {
-		return errors.New("Invalid number of inputs/outputs provided")
+		return errors.New("invalid number of inputs/outputs provided")
 	}
 
-	nodeCopies := make([]*NodeGene, 0, len(g0.NodeGenes))
+	nodeCopies := make([]*NodeGene, 0)
 	for _, node := range g0.NodeGenes {
 		nodeCopies = append(nodeCopies,
 			NewNodeGene(node.ID, node.Type, node.AFuncType))
 	}
 
-	edgeCopies := make([]*EdgeGene, 0, len(g0.EdgeGenes))
+	edgeCopies := make([]*EdgeGene, 0)
 
 	sort.Slice(nodeCopies, func(i, j int) bool {
 		return nodeCopies[i].ID < nodeCopies[j].ID
@@ -322,7 +307,7 @@ func (g *Genome) Crossover(g0 *Genome) error {
 
 	var inputNode, outputNode *NodeGene
 	for _, edge := range g0.EdgeGenes {
-		// search if any of the input/output nodes is added yet
+		// search if any of the input/output nodes are added yet
 		inputID, outputID := edge.InputNode.ID, edge.OutputNode.ID
 
 		// search for input node
@@ -350,9 +335,11 @@ func (g *Genome) Crossover(g0 *Genome) error {
 		}
 
 		// create a new copy of the edge
-		edgeCopy := NewEdgeGene(inputNode, outputNode)
-		edgeCopy.Weight = edge.Weight
-		edgeCopy.Disabled = edge.Disabled
+		edgeCopy := &EdgeGene{
+			InputNode:  inputNode,
+			OutputNode: outputNode,
+			Weight:     edge.Weight,
+		}
 
 		// check if this genome already has an edge with the same input node
 		// and output node, when the new edge copy has an input node as an
@@ -363,6 +350,7 @@ func (g *Genome) Crossover(g0 *Genome) error {
 				if !(edge0.InputNode.ID == edgeCopy.InputNode.ID &&
 					edge0.OutputNode.ID == edgeCopy.OutputNode.ID) {
 					edgeCopies = append(edgeCopies, edgeCopy)
+					break
 				}
 			}
 		} else {
