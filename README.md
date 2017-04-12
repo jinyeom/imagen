@@ -1,2 +1,2 @@
-# dppn
-Differentiable Pattern Producing Network (DPPN)
+# Imagen (Image Generation)
+Image Generation via Differentiable Pattern Producing Network (DPPN)
